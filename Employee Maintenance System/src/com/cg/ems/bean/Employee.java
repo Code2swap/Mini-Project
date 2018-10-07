@@ -22,8 +22,7 @@ public class Employee {
 	private String mgrId;
 	private int empLeaveBal;
 	//Default constructor for Employee
-	public Employee() {
-		super();	
+	public Employee() {	
 	}
 	
 	
