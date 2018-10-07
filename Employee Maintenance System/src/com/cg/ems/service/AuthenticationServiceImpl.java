@@ -1,7 +1,9 @@
 package com.cg.ems.service;
 
+import com.cg.ems.bean.User;
 import com.cg.ems.dao.AuthenticationDaoImpl;
 import com.cg.ems.dao.IAuthenticationDao;
+import com.cg.ems.exception.EMSException;
 
 public class AuthenticationServiceImpl implements IAuthenticationService {
 
@@ -11,7 +13,7 @@ public class AuthenticationServiceImpl implements IAuthenticationService {
 		authenticationDao = new AuthenticationDaoImpl();
 	}
 
-	public boolean loginSuccessful(String userName, String userPassword) {
-		return authenticationDao.loginSuccessful(userName, userPassword);
+	public User getUser(String userName, String userPassword) throws EMSException {
+		return authenticationDao.getUser(userName, userPassword);
 	}
 }

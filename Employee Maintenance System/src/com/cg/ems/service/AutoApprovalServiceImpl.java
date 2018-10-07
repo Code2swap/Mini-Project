@@ -6,6 +6,7 @@ import com.cg.ems.bean.Employee;
 import com.cg.ems.bean.EmployeeLeave;
 import com.cg.ems.dao.AutoApprovalDaoImpl;
 import com.cg.ems.dao.IAutoApprovalDao;
+import com.cg.ems.exception.EMSException;
 
 public class AutoApprovalServiceImpl implements IAutoApprovalService {
 
@@ -16,7 +17,7 @@ public class AutoApprovalServiceImpl implements IAutoApprovalService {
 	}
 
 	@Override
-	public List<EmployeeLeave> autoApprove() {
+	public List<EmployeeLeave> autoApprove() throws EMSException {
 		return autoApprovalDao.autoApprove();
 	}
 

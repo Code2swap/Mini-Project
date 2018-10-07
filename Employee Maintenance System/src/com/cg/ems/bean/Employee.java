@@ -20,35 +20,38 @@ public class Employee {
 	private String empAddress;
 	private String empContact;
 	private String mgrId;
-
+	private int empLeaveBal;
 	//Default constructor for Employee
 	public Employee() {
-		super();
-		
+		super();	
 	}
 	
+	
 	//Parameterized constructor for Employee
-		public Employee(String empId, String empFName, String empLName,
-				Date empDOB, Date empDOJ, int empDeptId, String empGrade,
-				String empDesignation, int empBasic, char empGender,
-				String empMarital, String empAddress, String empContact,
-				String mgrId) {
-			super();
-			this.empId = empId;
-			this.empFName = empFName;
-			this.empLName = empLName;
-			this.empDOB = empDOB;
-			this.empDOJ = empDOJ;
-			this.empDeptId = empDeptId;
-			this.empGrade = empGrade;
-			this.empDesignation = empDesignation;
-			this.empBasic = empBasic;
-			this.empGender = empGender;
-			this.empMarital = empMarital;
-			this.empAddress = empAddress;
-			this.empContact = empContact;
-			this.mgrId = mgrId;
-		}
+	public Employee(String empId, String empFName, String empLName,
+			Date empDOB, Date empDOJ, int empDeptId, String empGrade,
+			String empDesignation, int empBasic, char empGender,
+			String empMarital, String empAddress, String empContact,
+			String mgrId, int empLeaveBal) {
+		super();
+		this.empId = empId;
+		this.empFName = empFName;
+		this.empLName = empLName;
+		this.empDOB = empDOB;
+		this.empDOJ = empDOJ;
+		this.empDeptId = empDeptId;
+		this.empGrade = empGrade;
+		this.empDesignation = empDesignation;
+		this.empBasic = empBasic;
+		this.empGender = empGender;
+		this.empMarital = empMarital;
+		this.empAddress = empAddress;
+		this.empContact = empContact;
+		this.mgrId = mgrId;
+		this.empLeaveBal = empLeaveBal;
+	}
+
+	
 	
 	//Getters and Setters for Employee properties
 	public String getEmpId() {
@@ -162,6 +165,15 @@ public class Employee {
 	public void setMgrId(String mgrId) {
 		this.mgrId = mgrId;
 	}
+
+	public int getEmpLeaveBal() {
+		return empLeaveBal;
+	}
+
+	public void setEmpLeaveBal(int empLeaveBal) {
+		this.empLeaveBal = empLeaveBal;
+	}
+
 	
 	//toString method for Employee
 	@Override
@@ -172,7 +184,9 @@ public class Employee {
 				+ empGrade + ", empDesignation=" + empDesignation
 				+ ", empBasic=" + empBasic + ", empGender=" + empGender
 				+ ", empMarital=" + empMarital + ", empAddress=" + empAddress
-				+ ", empContact=" + empContact + ", mgrId=" + mgrId + "]";
+				+ ", empContact=" + empContact + ", mgrId=" + mgrId
+				+ ", empLeaveBal=" + empLeaveBal + "]";
 	}
+
 
 }

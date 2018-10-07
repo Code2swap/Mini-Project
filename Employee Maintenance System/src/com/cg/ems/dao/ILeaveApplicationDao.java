@@ -1,14 +1,21 @@
 package com.cg.ems.dao;
 
-import java.sql.Date;
+
 import java.util.List;
 
 import com.cg.ems.bean.EmployeeLeave;
+import com.cg.ems.exception.EMSException;
 
 public interface ILeaveApplicationDao {
 
-	boolean applyLeave(String empId, int leaveDuration, Date fromDate);
 
-	List<EmployeeLeave> manageLeave(String empId);
+	
 
+	boolean applyLeave(EmployeeLeave data) throws EMSException;
+
+	
+	boolean rejectLeave(int leaveId) throws EMSException;
+	List<EmployeeLeave> getAllAppliedLeaves() throws EMSException;
+
+	boolean approveLeave(EmployeeLeave data) throws EMSException;
 }

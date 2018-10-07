@@ -1,11 +1,12 @@
 package com.cg.ems.service;
 
-import java.sql.Date;
+
 import java.util.List;
 
 import com.cg.ems.bean.EmployeeLeave;
 import com.cg.ems.dao.ILeaveApplicationDao;
 import com.cg.ems.dao.LeaveApplicationDaoImpl;
+import com.cg.ems.exception.EMSException;
 
 public class LeaveApplicationServiceImpl implements ILeaveApplicationService {
 
@@ -15,14 +16,41 @@ public class LeaveApplicationServiceImpl implements ILeaveApplicationService {
 		leaveApplicationDao = new LeaveApplicationDaoImpl();
 	}
 
-	@Override
-	public boolean applyLeave(String empId, int leaveDuration, Date fromDate) {
-		return leaveApplicationDao.applyLeave(empId, leaveDuration, fromDate);
-	}
+	
+
+
 
 	@Override
-	public List<EmployeeLeave> manageLeave(String empId) {
-		return leaveApplicationDao.manageLeave(empId);
+	public boolean applyLeave(EmployeeLeave empLeave) throws EMSException {
+		
+		return leaveApplicationDao.applyLeave(empLeave);
+	}
+
+
+	@Override
+	public boolean approveLeave(EmployeeLeave empLeave) throws EMSException {
+		
+		return leaveApplicationDao.approveLeave(empLeave);
+	}
+
+
+
+
+
+	@Override
+	public boolean rejectLeave(int leaveId) throws EMSException {
+		
+		return leaveApplicationDao.rejectLeave(leaveId);
+	}
+
+
+
+
+
+	@Override
+	public List<EmployeeLeave> getAllAppliedLeaves() throws EMSException {
+	
+		return leaveApplicationDao.getAllAppliedLeaves();
 	}
 
 }
