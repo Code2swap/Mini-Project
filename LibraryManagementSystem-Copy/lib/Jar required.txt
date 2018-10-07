@@ -1,3 +1,0 @@
-ojdbc
-junit
-log4j
