@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import com.cg.ems.bean.Employee;
+import com.cg.ems.bean.User;
 import com.cg.ems.exception.EMSException;
 import com.cg.ems.util.ConnectionProvider;
 import com.cg.ems.util.Messages;
@@ -150,6 +151,38 @@ public class AdminDaoImpl implements IAdminDao {
 		}
 		return emp;
 
+	}
+
+	@Override
+	public boolean addUserCredentials(User user) throws EMSException {
+		boolean success = false;
+		Connection con = null;
+		PreparedStatement st = null;
+		if (user != null) {
+			try {
+				con = ConnectionProvider.getConnection();
+				st = con.prepareStatement(IQueryMapper.ADD_USER);
+				st.setString(1, user.getUserName());
+				st.setString(2, user.getUserPassword());
+				st.setString(3, user.getUserType());
+				st.setString(4, user.getEmpId());
+				int count = st.executeUpdate();
+				if (count > 0)
+					success = true;
+
+			} catch (SQLException e) {
+				throw new EMSException(Messages.NOT_INSERTED);
+			} finally {
+				try {
+					st.close();
+					con.close();
+				} catch (SQLException e) {
+					throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
+				}
+				
+			}
+		}
+		return success;
 	}
 
 }

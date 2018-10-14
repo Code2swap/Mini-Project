@@ -1,6 +1,5 @@
 package com.cg.ems.dao;
 
-import java.sql.Array;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -428,5 +427,4 @@ public class UserDaoImpl implements IUserDao {
 		return empList;
 
 	}
-
 }

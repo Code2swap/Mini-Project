@@ -1,0 +1,39 @@
+14-Oct-2018 11:58:52 INFO [DB]- Driver Loaded
+14-Oct-2018 11:58:55 ERROR [DB]- java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+14-Oct-2018 12:00:58 INFO [DB]- Driver Loaded
+14-Oct-2018 12:01:00 ERROR [DB]- java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+14-Oct-2018 12:01:11 ERROR [DB]- java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+14-Oct-2018 12:04:39 INFO [DB]- Driver Loaded
+14-Oct-2018 12:04:41 ERROR [DB]- java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+14-Oct-2018 12:05:58 INFO [DB]- Driver Loaded
+14-Oct-2018 12:06:01 ERROR [DB]- java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+14-Oct-2018 12:07:20 INFO [DB]- Driver Loaded
+14-Oct-2018 12:07:22 ERROR [DB]- java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+14-Oct-2018 12:08:16 INFO [DB]- Driver Loaded
+14-Oct-2018 12:08:18 ERROR [DB]- java.sql.SQLRecoverableException: IO Error: The Network Adapter could not establish the connection
+14-Oct-2018 12:21:31 INFO [DB]- Driver Loaded
+14-Oct-2018 12:28:20 INFO [DB]- Driver Loaded
+14-Oct-2018 12:30:03 INFO [DB]- Driver Loaded
+14-Oct-2018 12:34:05 INFO [DB]- Driver Loaded
+14-Oct-2018 12:40:36 INFO [DB]- Driver Loaded
+14-Oct-2018 12:46:01 INFO [DB]- Driver Loaded
+14-Oct-2018 12:55:42 INFO [DB]- Driver Loaded
+14-Oct-2018 13:06:30 INFO [DB]- Driver Loaded
+14-Oct-2018 13:07:22 ERROR [RegisterEntryDAO]- java.sql.SQLSyntaxErrorException: ORA-02289: sequence does not exist
+
+14-Oct-2018 13:08:51 ERROR [RegisterEntryDAO]- java.sql.SQLSyntaxErrorException: ORA-02289: sequence does not exist
+
+14-Oct-2018 13:18:32 INFO [DB]- Driver Loaded
+14-Oct-2018 13:23:10 INFO [DB]- Driver Loaded
+14-Oct-2018 13:29:56 INFO [DB]- Driver Loaded
+14-Oct-2018 13:32:34 INFO [DB]- Driver Loaded
+14-Oct-2018 13:35:36 INFO [DB]- Driver Loaded
+14-Oct-2018 14:56:27 INFO [DB]- Driver Loaded
+14-Oct-2018 15:10:04 INFO [DB]- Driver Loaded
+14-Oct-2018 15:50:26 INFO [DB]- Driver Loaded
+14-Oct-2018 15:52:14 INFO [DB]- Driver Loaded
+14-Oct-2018 15:54:31 INFO [DB]- Driver Loaded
+14-Oct-2018 15:57:20 INFO [DB]- Driver Loaded
+14-Oct-2018 16:01:32 INFO [DB]- Driver Loaded
+14-Oct-2018 16:04:17 INFO [DB]- Driver Loaded
+14-Oct-2018 16:06:18 INFO [DB]- Driver Loaded

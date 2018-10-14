@@ -31,4 +31,6 @@ public interface Messages {
 	public static final String DRIVER_CLASS_NOT_FOUND = "Oracle Drive Class Not Found";
 
 	public static final String NOT_UPDATED = "Unable to Update the data";
+
+	public static final String DATE_FORMAT = "Incorrect Date format";
 }

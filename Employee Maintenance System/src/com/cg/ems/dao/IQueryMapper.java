@@ -2,7 +2,7 @@ package com.cg.ems.dao;
 
 public interface IQueryMapper {
 
-	public static final String APPLY_LEAVE = "INSERT INTO Leave_History VALUES(seq.nextval,?,SYSDATE,?,?,?,?)";
+	public static final String APPLY_LEAVE = "INSERT INTO Leave_History VALUES(seq.NEXTVAL,?,SYSDATE,?,?,?,?)";
 	
 	public static final String UPDATE_BALANCE = "UPDATE Employee SET Emp_Leave_Bal=? WHERE Emp_ID=?";
 	
@@ -33,4 +33,6 @@ public interface IQueryMapper {
 	public static final String SEARCH_BY_LAST_NAME = "SELECT * FROM Employee WHERE Emp_Last_Name LIKE ?";
 	
 	public static final String FIND_EMP_LEAVE_BY_ID = "SELECT * FROM Leave_History WHERE Leave_Id=?";
+
+	public static final String ADD_USER = "INSERT INTO User_Master VALUES(user_seq.NEXTVAL, ?, ?, ?, ?)";
 }

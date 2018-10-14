@@ -6,9 +6,8 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-
-
 import com.cg.ems.bean.Employee;
+import com.cg.ems.bean.User;
 import com.cg.ems.exception.EMSException;
 import com.cg.ems.service.AdminServiceImpl;
 import com.cg.ems.service.IAdminService;
@@ -17,7 +16,7 @@ import com.cg.ems.util.Messages;
 public class AdminConsole {
 
 	private Scanner scan;
-	IAdminService adminService;
+	private IAdminService adminService;
 	private boolean success;
 	
 	public AdminConsole() {
@@ -49,7 +48,7 @@ public class AdminConsole {
 					tryAgain();
 				}
 			} catch (EMSException e) {
-				System.out.println(e.getMessage());
+				System.err.println(e.getMessage());
 			}
 		}
 	}
@@ -92,9 +91,11 @@ public class AdminConsole {
 			updatedEmployee.setEmpId(scan.next());
 			
 			// check if entered employee id exists in table
-
-			//if exist show all details
 			Employee employee = adminService.getEmployeeById(updatedEmployee.getEmpId());
+			if(employee == null) {
+				System.err.println("Sorry, No details found for the entered id");
+				return;
+			}
 			System.out.println(employee.toString());
 			
 			System.out.println("Enter Updated Value for Respective Field (0 for No Update)");
@@ -110,13 +111,13 @@ public class AdminConsole {
 			if(strData.equals("0")) strData = employee.getEmpLName();
 			updatedEmployee.setEmpLName(strData);
 			
-			System.out.print("Date of Birth (format:  yyyy-dd-MM) ? ");
+			System.out.print("Date of Birth (format:  yyyy-MM-dd) ? ");
 			strData = scan.next();
 			if(strData.equals("0")) dateData = employee.getEmpDOB();
 			else dateData = Date.valueOf(strData);
 			updatedEmployee.setEmpDOB(dateData);
 			
-			System.out.print("Date of Joining ? (format:  yyyy-dd-MM) ");
+			System.out.print("Date of Joining ? (format:  yyyy-MM-dd) ");
 			strData = scan.next();
 			if(strData.equals("0")) dateData = employee.getEmpDOJ();
 			else dateData = Date.valueOf(strData);
@@ -172,14 +173,47 @@ public class AdminConsole {
 			
 			success = adminService.updateEmployee(updatedEmployee);
 			if(success) System.out.println("Employee Update Successfully");
-			else System.out.println(Messages.UNABLE_TO_COMPLETE_OPERATION);
+			else System.err.println("Unable to upadte, please try again");
 			
 		} catch (InputMismatchException e) {
+			scan.next();
 			throw new EMSException(Messages.INPUT_MISMATCH);
 		}
 		
 	}
 
+	private void addUserCredentials(Employee employee) throws EMSException {
+		System.out.println("Enter User Credentials");
+		User user = new User();
+		user.setEmpId(employee.getEmpId());
+		System.out.print("Username ? ");
+		user.setUserName(scan.next());
+		System.out.print("User Password ? ");
+		user.setUserPassword(scan.next());
+		System.out.println("User Type (EMPLOYEE / ADMIN) ? ");
+		user.setUserType(scan.next());
+		adminService.addUserCredentials(user);
+	}
+	
+	private void addUserCredentialsAuto(Employee employee) throws EMSException {
+		
+		User user = new User();
+		String userName = employee.getEmpFName().toUpperCase();
+		if(userName.length() > 3) {
+			userName = userName.substring(0, 4);
+		}
+		String  userPassword = userName.toLowerCase() + "123";
+		user.setEmpId(employee.getEmpId());
+		user.setUserName(userName);
+		user.setUserPassword(userPassword);
+		user.setUserType("EMPLOYEE");
+		if(adminService.addUserCredentials(user)) {
+			System.out.println("User Credentials added successfully");
+		}
+		else {
+			System.err.println("Unable to add user credentials, please try again");
+		}
+	}
 	private void addEmployee() throws EMSException {
 		
 		System.out.println("Add Employee");
@@ -233,12 +267,31 @@ public class AdminConsole {
 			System.out.print("manager Id ? ");
 			employee.setMgrId(scan.next());
 			
-			success = adminService.addEmployee(employee);
-			if(success) System.out.println("Employee added successfully");
-			else throw new EMSException(Messages.UNABLE_TO_COMPLETE_OPERATION);
+			employee.setEmpLeaveBal(14);
 			
+			List<String> validationErrors = adminService.validateDetails(employee);
+			if(!validationErrors.isEmpty()) {
+				validationErrors.forEach(System.err::println);
+				Thread.sleep(1000);
+				System.out.println("Please Try Again");
+				return;
+			}
+			success = adminService.addEmployee(employee);
+			if(success) {
+				System.out.println("Employee added successfully");
+				addUserCredentialsAuto(employee);
+			}
+			else {
+				System.err.println("Unable to add employee, please try again");
+			}
+			
+		} catch(IllegalArgumentException e) {
+			throw new EMSException(Messages.DATE_FORMAT);
 		} catch (InputMismatchException e) {
+			scan.next();
 			throw new EMSException(Messages.INPUT_MISMATCH);
+		} catch (InterruptedException e) {
+			System.out.println("Action interrupted");
 		}
 
 		
@@ -256,6 +309,7 @@ public class AdminConsole {
 		try {
 			choice = scan.nextInt();
 		} catch (Exception e) {
+			scan.next();
 			throw new EMSException(Messages.INPUT_MISMATCH);
 		}
 		return choice;

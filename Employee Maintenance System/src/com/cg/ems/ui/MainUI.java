@@ -1,12 +1,13 @@
 package com.cg.ems.ui;
 
 import java.util.InputMismatchException;
+import java.util.List;
 import java.util.Scanner;
 
 import org.apache.log4j.PropertyConfigurator;
 
+import com.cg.ems.bean.EmployeeLeave;
 import com.cg.ems.bean.User;
-import com.cg.ems.dao.AutoApprovalDaoImpl;
 import com.cg.ems.exception.EMSException;
 import com.cg.ems.service.AuthenticationServiceImpl;
 import com.cg.ems.service.AutoApprovalServiceImpl;
@@ -26,13 +27,12 @@ public class MainUI {
 		int choice = -1;
 		Scanner scan = new Scanner(System.in);
 		while(true) {
+				
 			try {
-				approvalService.autoApprove();
-			} catch (EMSException e1) {
-				// TODO Auto-generated catch block
-				e1.printStackTrace();
-			}
-			try {
+				List<EmployeeLeave> empLeave = approvalService.autoApprove();
+				if(!empLeave.isEmpty()) {
+					System.out.println("The follwing leaves are auto approved");
+				}
 				choice = showChoices(scan);
 				switch(choice) {
 				case 1:
@@ -64,6 +64,7 @@ public class MainUI {
 		System.out.print("Password? ");
 		String userPassword = scan.next();
 		user = service.getUser(userName, userPassword);
+		System.out.println("Your Details");
 		System.out.println(user);
 		if (user != null) {
 			if(user.getUserType().equals("ADMIN")) {
@@ -75,15 +76,13 @@ public class MainUI {
 				emp.setEmpId(user.getEmpId());
 				emp.start();
 			}
-			
 		}
 		else {
 			System.err.println("Invalid Username or Password");
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
+				System.err.println("Event interrupted");
 			}
 		}
 	}

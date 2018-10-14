@@ -47,7 +47,6 @@ public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 				empLeave.setToDate(rs.getDate("date_to"));
 				empLeave.setStatus(rs.getString("status"));
 				empLeave.setAppliedDate(rs.getDate("date_applied"));
-				System.out.println(empLeave);
 				con.setAutoCommit(false);
 				
 				st1.setString(1, empLeave.getEmpId());
@@ -58,7 +57,7 @@ public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 				leaveBal -= empLeave.getLeaveDuration();
 				
 				if (leaveBal > 0) {
-					int diffDays = (int )TimeUnit.MILLISECONDS.toDays(Date.valueOf(LocalDate.now()).getTime() 
+					int diffDays = 1 + (int )TimeUnit.MILLISECONDS.toDays(Date.valueOf(LocalDate.now()).getTime() 
 							- empLeave.getAppliedDate().getTime());
 					if (diffDays > 3) {
 						empLeave.setStatus("Approved");
@@ -72,8 +71,8 @@ public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 						if (count1 > 0 && count2 > 0) {
 							con.commit();
 						}
+						leaveList.add(empLeave);
 					}
-					leaveList.add(empLeave);
 				} else {
 					throw new EMSException(Messages.NOT_ENOUGH_LEAVE_BALANCE);
 				}

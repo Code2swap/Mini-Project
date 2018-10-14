@@ -1,6 +1,6 @@
 
-#Run the following script in sql
-#before running the java program
+#First configure the the file->db.properties in folder->resorces
+#Run the following script in sql before running the java program
 
 CREATE TABLE Employee(Emp_ID VARCHAR2(6) PRIMARY KEY, Emp_First_Name VARCHAR2(25), 
 Emp_Last_Name VARCHAR2(25), Emp_Date_of_Birth DATE, Emp_Date_of_Joining DATE,
@@ -9,10 +9,10 @@ Emp_Gender VARCHAR2(1), Emp_Marital_Status VARCHAR2(10), Emp_Home_Address VARCHA
 Emp_Contact_Num VARCHAR2(15), Mgr_Id VARCHAR2(6), Emp_Leave_Bal NUMBER(2),
 FOREIGN KEY(Mgr_Id) REFERENCES Employee(Emp_ID));
 
-INSERT INTO Employee VALUES ( '100004', 'Rahul', 'Kumar', TO_DATE('1995-08-25','yyyy-MM-dd'), TO_DATE('2018-08-01','yyyy-MM-dd'), 10 ,'M1','Manager', 500000, 'M', 'Married' , 'Whitefield','4885291467', '100004', 12);
-INSERT INTO Employee VALUES ( '100001', 'Suresh', 'Kumar', TO_DATE('1995-08-25','yyyy-MM-dd'), TO_DATE('2018-08-01','yyyy-MM-dd'), 10 ,'M1','Manager', 500000, 'M', 'Married' , 'Whitefield','4885291467', '100001', 12);
-INSERT INTO Employee VALUES ( '100002', 'Jaspreet', 'Kaur', TO_DATE('1996-10-17','yyyy-MM-dd'), TO_DATE('2018-07-01','yyyy-MM-dd'), 11 ,'M4','Senior Analyst', 400000, 'F', 'Single' , 'Bellandur','9453394101', '100001', 12);
-INSERT INTO Employee VALUES ( '100003', 'Johnson', 'Holmes', TO_DATE('1996-01-25','yyyy-MM-dd'), TO_DATE('2018-09-01','yyyy-MM-dd'), 12 ,'M3','Associate Consultant', 450000, 'M', 'Divorced' , 'Electronic City ','9988174321', '100001', 12);
+INSERT INTO Employee VALUES ( '100004', 'Rahul', 'Kumar', TO_DATE('1995-08-25','yyyy-MM-dd'), TO_DATE('2018-08-01','yyyy-MM-dd'), 121 ,'M1','Manager', 500000, 'M', 'Married' , 'Whitefield','4885291467', '100004', 12);
+INSERT INTO Employee VALUES ( '100001', 'Suresh', 'Kumar', TO_DATE('1995-08-25','yyyy-MM-dd'), TO_DATE('2018-08-01','yyyy-MM-dd'), 124 ,'M1','Manager', 500000, 'M', 'Married' , 'Whitefield','4885291467', '100001', 12);
+INSERT INTO Employee VALUES ( '100002', 'Jaspreet', 'Kaur', TO_DATE('1996-10-17','yyyy-MM-dd'), TO_DATE('2018-07-01','yyyy-MM-dd'), 121 ,'M4','Senior Analyst', 400000, 'F', 'Single' , 'Bellandur','9453394101', '100001', 12);
+INSERT INTO Employee VALUES ( '100003', 'Johnson', 'Holmes', TO_DATE('1996-01-25','yyyy-MM-dd'), TO_DATE('2018-09-01','yyyy-MM-dd'), 123 ,'M3','Associate Consultant', 450000, 'M', 'Divorced' , 'Electronic City ','9988174321', '100001', 12);
 
 CREATE TABLE User_Master(UserId VARCHAR2(6) PRIMARY KEY, UserName VARCHAR2(15),
 UserPassword VARCHAR2(50), UserType VARCHAR2(10), Emp_ID VARCHAR2(6)
@@ -38,7 +38,10 @@ CREATE TABLE Leave_History(Leave_Id NUMBER, Emp_id VARCHAR2(6) REFERENCES Employ
 date_applied DATE, noofdays_applied NUMBER, date_from DATE, date_to DATE,
 status VARCHAR2(20) CHECK (status IN ('Applied','Approved','Rejected')));
 
-///////////////////////////////////////////////////////////////////////////
+CREATE SEQUENCE user_seq START WITH 1005 INCREMENT BY 1;
+CREATE SEQUENCE seq START WITH 1000 INCREMENT BY 10;
+
+############################################################################################
 # DO NOT COPY FROM HERE
 
 INSERT INTO User_Master
