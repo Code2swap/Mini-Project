@@ -29,4 +29,6 @@ public interface Messages {
 	public static final String INPUT_OUTPUT_OPERATION_FAILED = "Problem Occurred while performing IO Operation";
 
 	public static final String DRIVER_CLASS_NOT_FOUND = "Oracle Drive Class Not Found";
+
+	public static final String NOT_UPDATED = "Unable to Update the data";
 }

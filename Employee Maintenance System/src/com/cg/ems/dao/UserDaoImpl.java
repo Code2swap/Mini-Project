@@ -24,7 +24,7 @@ public class UserDaoImpl implements IUserDao {
 		try {
 			con = ConnectionProvider.getConnection();
 			st = con.prepareStatement(IQueryMapper.FIND_BY_ID);
-			
+
 			st.setString(1, empId);
 			ResultSet rs = st.executeQuery();
 			if (rs.next()) {
@@ -62,7 +62,7 @@ public class UserDaoImpl implements IUserDao {
 		return emp;
 
 	}
-	
+
 	@Override
 	public List<Employee> searchById(String empId, char wildcardChar) throws EMSException {
 
@@ -100,7 +100,7 @@ public class UserDaoImpl implements IUserDao {
 				emp.setEmpAddress(rs.getString(12));
 				emp.setEmpContact(rs.getString(13));
 				emp.setMgrId(rs.getString(14));
-
+				emp.setEmpLeaveBal(rs.getInt(15));
 				empList.add(emp);
 			}
 
@@ -159,7 +159,7 @@ public class UserDaoImpl implements IUserDao {
 				emp.setEmpAddress(rs.getString(12));
 				emp.setEmpContact(rs.getString(13));
 				emp.setMgrId(rs.getString(14));
-
+				emp.setEmpLeaveBal(rs.getInt(15));
 				empList.add(emp);
 			}
 
@@ -216,7 +216,7 @@ public class UserDaoImpl implements IUserDao {
 				emp.setEmpAddress(rs.getString(12));
 				emp.setEmpContact(rs.getString(13));
 				emp.setMgrId(rs.getString(14));
-
+				emp.setEmpLeaveBal(rs.getInt(15));
 				empList.add(emp);
 			}
 
@@ -248,8 +248,8 @@ public class UserDaoImpl implements IUserDao {
 				+ "(SELECT DISTINCT Dept_Id FROM Department WHERE Dept_Name IN (";
 		List<Employee> empList;
 		int size = empDeptNames.size();
-		for(int count = 0; count < size; count++) {
-			if(count == 0)
+		for (int count = 0; count < size; count++) {
+			if (count == 0)
 				query += "?";
 			else
 				query += ", ?";
@@ -259,7 +259,7 @@ public class UserDaoImpl implements IUserDao {
 
 			con = ConnectionProvider.getConnection();
 			st = con.prepareStatement(query);
-			for(int count = 0; count < size; count++)
+			for (int count = 0; count < size; count++)
 				st.setString(count + 1, empDeptNames.get(count));
 			ResultSet rs = st.executeQuery();
 			empList = new ArrayList<Employee>();
@@ -279,7 +279,7 @@ public class UserDaoImpl implements IUserDao {
 				emp.setEmpAddress(rs.getString(12));
 				emp.setEmpContact(rs.getString(13));
 				emp.setMgrId(rs.getString(14));
-
+				emp.setEmpLeaveBal(rs.getInt(15));
 				empList.add(emp);
 			}
 
@@ -308,15 +308,22 @@ public class UserDaoImpl implements IUserDao {
 		Connection con = null;
 		PreparedStatement st = null;
 		List<Employee> empList = null;
-
+		String query = "SELECT * FROM Employee WHERE Emp_Grade IN (";
+		int size = empGrades.size();
+		for (int count = 0; count < size; count++) {
+			if (count == 0)
+				query += "?";
+			else
+				query += ", ?";
+		}
+		query += ")";
+		
 		try {
 
 			con = ConnectionProvider.getConnection();
-			st = con.prepareStatement(IQueryMapper.SEARCH_BY_GRADES);
-
-			Array array = con.createArrayOf("VARCHAR2(2)", empGrades.toArray());
-			st.setArray(1, array);
-
+			st = con.prepareStatement(query);
+			for (int count = 0; count < size; count++)
+				st.setString(count + 1, empGrades.get(count));
 			ResultSet rs = st.executeQuery();
 			empList = new ArrayList<Employee>();
 			while (rs.next()) {
@@ -335,7 +342,7 @@ public class UserDaoImpl implements IUserDao {
 				emp.setEmpAddress(rs.getString(12));
 				emp.setEmpContact(rs.getString(13));
 				emp.setMgrId(rs.getString(14));
-
+				emp.setEmpLeaveBal(rs.getInt(15));
 				empList.add(emp);
 			}
 
@@ -364,14 +371,23 @@ public class UserDaoImpl implements IUserDao {
 		Connection con = null;
 		PreparedStatement st = null;
 		List<Employee> empList = null;
-
+		String query = "SELECT * FROM Employee WHERE Emp_Marital_Status IN (";
+		int size = empMarital.size();
+		for (int count = 0; count < size; count++) {
+			if (count == 0)
+				query += "?";
+			else
+				query += ", ?";
+		}
+		query += ")";
+		
 		try {
 
 			con = ConnectionProvider.getConnection();
-			st = con.prepareStatement(IQueryMapper.SEARCH_BY_GRADES);
+			st = con.prepareStatement(query);
 
-			Array array = con.createArrayOf("VARCHAR2(1)", empMarital.toArray());
-			st.setArray(1, array);
+			for (int count = 0; count < size; count++)
+				st.setString(count + 1, empMarital.get(count));
 
 			ResultSet rs = st.executeQuery();
 			empList = new ArrayList<Employee>();
@@ -391,7 +407,7 @@ public class UserDaoImpl implements IUserDao {
 				emp.setEmpAddress(rs.getString(12));
 				emp.setEmpContact(rs.getString(13));
 				emp.setMgrId(rs.getString(14));
-
+				emp.setEmpLeaveBal(rs.getInt(15));
 				empList.add(emp);
 			}
 

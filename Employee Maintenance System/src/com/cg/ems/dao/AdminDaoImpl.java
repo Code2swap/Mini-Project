@@ -43,7 +43,7 @@ public class AdminDaoImpl implements IAdminDao {
 
 			} catch (SQLException e) {
 
-				throw new EMSException("Unable To Save Employee");
+				throw new EMSException(Messages.NOT_INSERTED);
 			}
 		}
 		return success;
@@ -75,7 +75,7 @@ public class AdminDaoImpl implements IAdminDao {
 			if(update > 0)
 				success = true;
 		} catch (SQLException e) {
-			throw new EMSException("Unable To Update Employee");
+			throw new EMSException(Messages.NOT_UPDATED);
 		}
 		return success;
 	}
@@ -112,7 +112,7 @@ public class AdminDaoImpl implements IAdminDao {
 
 		} catch (SQLException e) {
 
-			throw new EMSException("Unable To Fetch Employee");
+			throw new EMSException(Messages.NOT_FETCHED);
 		}
 		return empList;
 	}
