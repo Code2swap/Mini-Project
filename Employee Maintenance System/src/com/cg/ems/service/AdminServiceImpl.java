@@ -59,12 +59,12 @@ public class AdminServiceImpl implements IAdminService {
 		// Validate first name
 
 		if (!isValidFName(employee.getEmpFName())) {
-			validationErrors.add("Employee first name should not be empty and start with captital letter");
+			validationErrors.add("Employee first name should be Aplhabetic only, not empty and start with captital letter");
 		}
 
 		// validate last name
 		if (!isValidLName(employee.getEmpLName())) {
-			validationErrors.add("Employee last name should not be empty and start with captital letter");
+			validationErrors.add("Employee last name should be Aplhabetic only, not empty and start with captital letter");
 		}
 
 		// validate dates

@@ -4,6 +4,7 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
+import org.apache.log4j.Logger;
 import org.apache.log4j.PropertyConfigurator;
 
 import com.cg.ems.bean.EmployeeLeave;
@@ -21,6 +22,9 @@ public class MainUI {
 	static EmployeeConsole emp = null;
 	static IAuthenticationService service = new AuthenticationServiceImpl();
 	static IAutoApprovalService approvalService = new AutoApprovalServiceImpl();
+	private static Logger log = Logger.getLogger("Main Console");
+	
+	// start of the application
 	public static void main(String[] args) {
 		
 		PropertyConfigurator.configure("resources/log4j.properties");
@@ -32,6 +36,10 @@ public class MainUI {
 				List<EmployeeLeave> empLeave = approvalService.autoApprove();
 				if(!empLeave.isEmpty()) {
 					System.out.println("The follwing leaves are auto approved");
+					empLeave.forEach(System.out::println);
+				}
+				else {
+					log.info("No leaves to auto approve");
 				}
 				choice = showChoices(scan);
 				switch(choice) {
@@ -48,6 +56,7 @@ public class MainUI {
 				if(choice == 2) break;
 				
 			} catch (EMSException e) {
+				log.error(e);
 				System.err.println(e.getMessage());
 			}
 		}
@@ -58,6 +67,7 @@ public class MainUI {
 	}
 
 	private static void userConsole(Scanner scan) throws EMSException {
+		log.info("user login");
 		User user = null;
 		System.out.print("UserName? ");
 		String userName = scan.next();
@@ -65,6 +75,7 @@ public class MainUI {
 		String userPassword = scan.next();
 		user = service.getUser(userName, userPassword);
 		if (user != null) {
+			log.info("Login successful");
 			if(user.getUserType().equals("ADMIN")) {
 				admin = new AdminConsole();
 				admin.start();
@@ -76,10 +87,12 @@ public class MainUI {
 			}
 		}
 		else {
+			log.error("Username or password is not correct");
 			System.err.println("Invalid Username or Password");
 			try {
 				Thread.sleep(1000);
 			} catch (InterruptedException e) {
+				log.error("Sleeping interrupted");
 				System.err.println("Event interrupted");
 			}
 		}
