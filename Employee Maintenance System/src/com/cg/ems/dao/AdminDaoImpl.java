@@ -10,6 +10,7 @@ import java.util.List;
 import com.cg.ems.bean.Employee;
 import com.cg.ems.exception.EMSException;
 import com.cg.ems.util.ConnectionProvider;
+import com.cg.ems.util.Messages;
 
 public class AdminDaoImpl implements IAdminDao {
 
@@ -18,7 +19,7 @@ public class AdminDaoImpl implements IAdminDao {
 		boolean success = false;
 		
 		if (employee != null) {
-			try (Connection con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+			try (Connection con = ConnectionProvider.getConnection();
 					PreparedStatement st = con.prepareStatement(IQueryMapper.ADD_EMPLOYEE);) {
 				st.setString(1, employee.getEmpId());
 				st.setString(2, employee.getEmpFName());
@@ -29,12 +30,12 @@ public class AdminDaoImpl implements IAdminDao {
 				st.setString(7, employee.getEmpGrade());
 				st.setString(8, employee.getEmpDesignation());
 				st.setInt(9, employee.getEmpBasic());
-				st.setLong(10, employee.getEmpGender());
+				st.setString(10, Character.toString(employee.getEmpGender()));
 				st.setString(11, employee.getEmpMarital());
 				st.setString(12, employee.getEmpAddress());
 				st.setString(13, employee.getEmpContact());
 				st.setString(14, employee.getMgrId());
-
+				st.setInt(15, employee.getEmpLeaveBal());
 				int count = st.executeUpdate();
 
 				if (count > 0)
@@ -52,9 +53,9 @@ public class AdminDaoImpl implements IAdminDao {
 	public boolean updateEmployee(Employee employee) throws EMSException {
 		boolean success = false;
 		
-		try (Connection con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+		try (Connection con = ConnectionProvider.getConnection();
 				PreparedStatement st = con.prepareStatement(IQueryMapper.UPDATE_EMPLOYEE);) {
-			st.setString(14, employee.getEmpId());
+			st.setString(15, employee.getEmpId());
 
 			st.setString(1, employee.getEmpFName());
 			st.setString(2, employee.getEmpLName());
@@ -64,11 +65,12 @@ public class AdminDaoImpl implements IAdminDao {
 			st.setString(6, employee.getEmpGrade());
 			st.setString(7, employee.getEmpDesignation());
 			st.setInt(8, employee.getEmpBasic());
-			st.setLong(9, employee.getEmpGender());
+			st.setString(9, Character.toString(employee.getEmpGender()));
 			st.setString(10, employee.getEmpMarital());
 			st.setString(11, employee.getEmpAddress());
 			st.setString(12, employee.getEmpContact());
 			st.setString(13, employee.getMgrId());
+			st.setInt(14, employee.getEmpLeaveBal());
 			int update = st.executeUpdate();
 			if(update > 0)
 				success = true;
@@ -82,7 +84,7 @@ public class AdminDaoImpl implements IAdminDao {
 	public List<Employee> getAllEmployee() throws EMSException {
 
 		List<Employee> empList = null;
-		try (Connection con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+		try (Connection con = ConnectionProvider.getConnection();
 				PreparedStatement st = con.prepareStatement(IQueryMapper.LIST_EMPLOYEE);) {
 
 			ResultSet rs = st.executeQuery();
@@ -99,12 +101,12 @@ public class AdminDaoImpl implements IAdminDao {
 				emp.setEmpGrade(rs.getString(7));
 				emp.setEmpDesignation(rs.getString(8));
 				emp.setEmpBasic(rs.getInt(9));
-				emp.setEmpGender((char) rs.getLong(10));
+				emp.setEmpGender(rs.getString(10).charAt(0));
 				emp.setEmpMarital(rs.getString(11));
 				emp.setEmpAddress(rs.getString(12));
 				emp.setEmpContact(rs.getString(13));
 				emp.setMgrId(rs.getString(14));
-
+				emp.setEmpLeaveBal(rs.getInt(15));
 				empList.add(emp);
 			}
 
@@ -118,7 +120,7 @@ public class AdminDaoImpl implements IAdminDao {
 	@Override
 	public Employee getEmployeeById(String empId) throws EMSException {
 		Employee emp = null;
-		try (Connection con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+		try (Connection con = ConnectionProvider.getConnection();
 				PreparedStatement st = con.prepareStatement(IQueryMapper.FIND_BY_ID);) {
 			
 			st.setString(1, empId);
@@ -135,15 +137,16 @@ public class AdminDaoImpl implements IAdminDao {
 				emp.setEmpGrade(rs.getString(7));
 				emp.setEmpDesignation(rs.getString(8));
 				emp.setEmpBasic(rs.getInt(9));
-				emp.setEmpGender((char) rs.getLong(10));
+				emp.setEmpGender(rs.getString(10).charAt(0));
 				emp.setEmpMarital(rs.getString(11));
 				emp.setEmpAddress(rs.getString(12));
 				emp.setEmpContact(rs.getString(13));
 				emp.setMgrId(rs.getString(14));
+				emp.setEmpLeaveBal(rs.getInt(15));
 			}
 
 		} catch (SQLException e) {
-			throw new EMSException("Unable To Fetch Employee");
+			throw new EMSException(Messages.NOT_FETCHED);
 		}
 		return emp;
 

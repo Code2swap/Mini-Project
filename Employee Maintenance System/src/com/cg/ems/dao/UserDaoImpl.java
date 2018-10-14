@@ -2,7 +2,6 @@ package com.cg.ems.dao;
 
 import java.sql.Array;
 import java.sql.Connection;
-import java.sql.Date;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -20,12 +19,14 @@ public class UserDaoImpl implements IUserDao {
 	@Override
 	public Employee getEmployeeById(String empId) throws EMSException {
 		Employee emp = null;
-		try (Connection con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
-				PreparedStatement st = con.prepareStatement(IQueryMapper.FIND_BY_ID);) {
+		Connection con = null;
+		PreparedStatement st = null;
+		try {
+			con = ConnectionProvider.getConnection();
+			st = con.prepareStatement(IQueryMapper.FIND_BY_ID);
 			
 			st.setString(1, empId);
 			ResultSet rs = st.executeQuery();
-
 			if (rs.next()) {
 				emp = new Employee();
 				emp.setEmpId(rs.getString(1));
@@ -37,15 +38,26 @@ public class UserDaoImpl implements IUserDao {
 				emp.setEmpGrade(rs.getString(7));
 				emp.setEmpDesignation(rs.getString(8));
 				emp.setEmpBasic(rs.getInt(9));
-				emp.setEmpGender((char) rs.getLong(10));
+				emp.setEmpGender(rs.getString(10).charAt(0));
 				emp.setEmpMarital(rs.getString(11));
 				emp.setEmpAddress(rs.getString(12));
 				emp.setEmpContact(rs.getString(13));
 				emp.setMgrId(rs.getString(14));
+				emp.setEmpLeaveBal(rs.getInt(15));
 			}
 
 		} catch (SQLException e) {
 			throw new EMSException(Messages.NOT_FETCHED);
+		} finally {
+
+			try {
+				st.close();
+				con.close();
+			} catch (SQLException e) {
+
+				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
+			}
+
 		}
 		return emp;
 
@@ -61,7 +73,7 @@ public class UserDaoImpl implements IUserDao {
 
 		try {
 
-			con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+			con = ConnectionProvider.getConnection();
 			st = con.prepareStatement(IQueryMapper.SEARCH_BY_ID);
 
 			if (wildcardChar == '*') {
@@ -120,7 +132,7 @@ public class UserDaoImpl implements IUserDao {
 
 		try {
 
-			con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+			con = ConnectionProvider.getConnection();
 			st = con.prepareStatement(IQueryMapper.SEARCH_BY_FIRST_NAME);
 
 			if (wildcardChar == '*') {
@@ -177,7 +189,7 @@ public class UserDaoImpl implements IUserDao {
 
 		try {
 
-			con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+			con = ConnectionProvider.getConnection();
 			st = con.prepareStatement(IQueryMapper.SEARCH_BY_LAST_NAME);
 
 			if (wildcardChar == '*') {
@@ -232,16 +244,23 @@ public class UserDaoImpl implements IUserDao {
 		Employee emp = null;
 		Connection con = null;
 		PreparedStatement st = null;
-		List<Employee> empList = null;
-
+		String query = "SELECT * FROM Employee WHERE Emp_Dept_Id IN"
+				+ "(SELECT DISTINCT Dept_Id FROM Department WHERE Dept_Name IN (";
+		List<Employee> empList;
+		int size = empDeptNames.size();
+		for(int count = 0; count < size; count++) {
+			if(count == 0)
+				query += "?";
+			else
+				query += ", ?";
+		}
+		query += "))";
 		try {
 
-			con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
-			st = con.prepareStatement(IQueryMapper.SEARCH_BY_DEPARTMENT);
-
-			Array array = con.createArrayOf("VARCHAR2(50)", empDeptNames.toArray());
-			st.setArray(1, array);
-
+			con = ConnectionProvider.getConnection();
+			st = con.prepareStatement(query);
+			for(int count = 0; count < size; count++)
+				st.setString(count + 1, empDeptNames.get(count));
 			ResultSet rs = st.executeQuery();
 			empList = new ArrayList<Employee>();
 			while (rs.next()) {
@@ -292,7 +311,7 @@ public class UserDaoImpl implements IUserDao {
 
 		try {
 
-			con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+			con = ConnectionProvider.getConnection();
 			st = con.prepareStatement(IQueryMapper.SEARCH_BY_GRADES);
 
 			Array array = con.createArrayOf("VARCHAR2(2)", empGrades.toArray());
@@ -348,7 +367,7 @@ public class UserDaoImpl implements IUserDao {
 
 		try {
 
-			con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+			con = ConnectionProvider.getConnection();
 			st = con.prepareStatement(IQueryMapper.SEARCH_BY_GRADES);
 
 			Array array = con.createArrayOf("VARCHAR2(1)", empMarital.toArray());

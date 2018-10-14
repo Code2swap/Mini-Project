@@ -1,6 +1,7 @@
 package com.cg.ems.util;
 
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -9,48 +10,58 @@ import java.util.Properties;
 
 
 
+
+
 import org.apache.log4j.Logger;
 
 import com.cg.ems.exception.EMSException;
 
 
-public enum ConnectionProvider {
+public class ConnectionProvider {
 
-	DEFAULT_INSTANCE;
+	public static ConnectionProvider defaultInstance = null;
 
-	private String driver;
-	private String unm;
-	private String pwd;
-	private String url;
+	private static String driver;
+	private static String user;
+	private static String pwd;
+	private static String url;
 
-	private Logger log = Logger.getLogger("DB");
+	private static Logger log = Logger.getLogger("DB");
 
-	private ConnectionProvider() {
+	private ConnectionProvider() throws EMSException {
 		try {
 			Properties props = new Properties();
-			props.load(new FileInputStream("res/db.properties"));
-			unm = props.getProperty("db.unm");
+			props.load(new FileInputStream("resources/db.properties"));
+			user = props.getProperty("db.user");
 			driver = props.getProperty("db.driver");
-			pwd = props.getProperty("db.pwd");
+			pwd = props.getProperty("db.password");
 			url = props.getProperty("db.url");
 			Class.forName(driver);
 			log.info("Driver Loaded");
-		} catch (ClassNotFoundException | IOException e) {
+		} catch (ClassNotFoundException e) {
 			log.error(e);
+			throw new EMSException(Messages.DRIVER_CLASS_NOT_FOUND);
+		} catch (FileNotFoundException e) {
+			throw new EMSException(Messages.FILE_NOT_FOUND);
+		} catch (IOException e) {
+			throw new EMSException(Messages.INPUT_OUTPUT_OPERATION_FAILED);
 		}
 	}
 
-	public Connection getConnection() throws EMSException {
+	public static Connection getConnection() throws EMSException {
 		Connection con = null;
+		
+		if(defaultInstance == null)
+			defaultInstance = new ConnectionProvider();
 
 		try {
-			if (url != null && unm != null && pwd != null) {
-				con = DriverManager.getConnection(url, unm, pwd);
-			}else
-				throw new EMSException("Connection Configuaration Not Loaded!");
+			if (url != null && user != null && pwd != null) {
+				con = DriverManager.getConnection(url, user, pwd);
+			} else
+				throw new EMSException(Messages.CONNECTION_NOT_CONFIGURED);
 		} catch (SQLException e) {
 			log.error(e);
-			throw new EMSException("Connection is not established!");
+			throw new EMSException(Messages.CONNECTION_NOT_ESTABLISHED);
 		}
 		return con;
 	}

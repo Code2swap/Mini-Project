@@ -9,6 +9,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
 
@@ -29,8 +30,11 @@ public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 		PreparedStatement st3 = null;
 		PreparedStatement st4 = null;
 		Connection con = null;
-		con = ConnectionProvider.DEFAULT_INSTANCE.getConnection();
+		con = ConnectionProvider.getConnection();
 		try {
+			st1 = con.prepareStatement(IQueryMapper.GET_BALANCE);
+			st2 = con.prepareStatement(IQueryMapper.UPDATE_BALANCE);
+			st3 = con.prepareStatement(IQueryMapper.APPROVE_LEAVE);
 			st4 = con.prepareStatement(IQueryMapper.GET_APPLIED_LEAVE);
 			st4.setString(1, "Applied");
 			ResultSet rs = st4.executeQuery();
@@ -43,25 +47,20 @@ public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 				empLeave.setToDate(rs.getDate("date_to"));
 				empLeave.setStatus(rs.getString("status"));
 				empLeave.setAppliedDate(rs.getDate("date_applied"));
-				st1 = con.prepareStatement(IQueryMapper.GET_BALANCE);
-				st2 = con.prepareStatement(IQueryMapper.UPDATE_BALANCE);
-				st3 = con.prepareStatement(IQueryMapper.APPROVE_LEAVE);
-
+				System.out.println(empLeave);
 				con.setAutoCommit(false);
+				
 				st1.setString(1, empLeave.getEmpId());
 				ResultSet resultSet = st1.executeQuery();
-				rs.next();
+				resultSet.next();
+				
 				int leaveBal = resultSet.getInt(1);
 				leaveBal -= empLeave.getLeaveDuration();
+				
 				if (leaveBal > 0) {
-					Date appliedDate = empLeave.getAppliedDate();
-					Calendar c = Calendar.getInstance();
-					c.setTime(appliedDate);
-
-					c.add(Calendar.DATE, 3);
-					Date after3days = (Date) c.getTime();
-					Date currDate = Date.valueOf(LocalDate.now());
-					if (currDate.compareTo(after3days) > 0) {
+					int diffDays = (int )TimeUnit.MILLISECONDS.toDays(Date.valueOf(LocalDate.now()).getTime() 
+							- empLeave.getAppliedDate().getTime());
+					if (diffDays > 3) {
 						empLeave.setStatus("Approved");
 
 						st2.setInt(1, leaveBal);
@@ -105,3 +104,5 @@ public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 	}
 
 }
+
+

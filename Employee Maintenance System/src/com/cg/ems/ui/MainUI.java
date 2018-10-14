@@ -1,86 +1,93 @@
 package com.cg.ems.ui;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 import org.apache.log4j.PropertyConfigurator;
 
 import com.cg.ems.bean.User;
+import com.cg.ems.dao.AutoApprovalDaoImpl;
 import com.cg.ems.exception.EMSException;
 import com.cg.ems.service.AuthenticationServiceImpl;
+import com.cg.ems.service.AutoApprovalServiceImpl;
 import com.cg.ems.service.IAuthenticationService;
+import com.cg.ems.service.IAutoApprovalService;
+import com.cg.ems.util.Messages;
 
 public class MainUI {
 
 	static AdminConsole admin = null;
 	static EmployeeConsole emp = null;
 	static IAuthenticationService service = new AuthenticationServiceImpl();
-	
+	static IAutoApprovalService approvalService = new AutoApprovalServiceImpl();
 	public static void main(String[] args) {
 		
 		PropertyConfigurator.configure("resources/log4j.properties");
 		int choice = -1;
+		Scanner scan = new Scanner(System.in);
 		while(true) {
-			Scanner scan = new Scanner(System.in);
-			showChoices();
-			choice = scan.nextInt();
-			switch(choice) {
-			case 1:
-				adminConsole(scan);
-				break;
-			case 2:
-				employeeConsole(scan);
-				break;
-			case 3:
-				exit();
-			default:
-				tryAgain();
+			try {
+				approvalService.autoApprove();
+			} catch (EMSException e1) {
+				// TODO Auto-generated catch block
+				e1.printStackTrace();
 			}
-			scan.close();
-			if(choice == 3) break;
+			try {
+				choice = showChoices(scan);
+				switch(choice) {
+				case 1:
+					userConsole(scan);
+					break;
+				case 2:
+					exit();
+					break;
+				default:
+					tryAgain();
+				}
+				
+				if(choice == 2) break;
+				
+			} catch (EMSException e) {
+				System.err.println(e.getMessage());
+			}
 		}
-		
+		scan.close();
 		System.out.println("Program Terminated");
 		System.out.println("Thankyou, Visit Again!!!!");
 
 	}
 
-	private static void employeeConsole(Scanner scan) {
+	private static void userConsole(Scanner scan) throws EMSException {
 		User user = null;
 		System.out.print("UserName? ");
 		String userName = scan.next();
 		System.out.print("Password? ");
 		String userPassword = scan.next();
-		try {
-			user = service.getUser(userName, userPassword);
-		} catch (EMSException e) {
-			System.out.println(e.getMessage());
-		}
+		user = service.getUser(userName, userPassword);
+		System.out.println(user);
 		if (user != null) {
-			emp = new EmployeeConsole();
-			emp.setEmpId(user.getEmpId());
-			emp.start();
-		} else
-			System.out.println("Invalid Username or Password");
-	}
-
-	private static void adminConsole(Scanner scan) {
-		User user = null;
-		System.out.print("UserName ? ");
-		String userName = scan.next();
-		System.out.print("Password ? ");
-		String userPassword = scan.next();
-		
-		try {
-			user = service.getUser(userName, userPassword);
-		} catch (EMSException e) {
-			System.out.println(e.getMessage());
+			if(user.getUserType().equals("ADMIN")) {
+				admin = new AdminConsole();
+				admin.start();
+			}
+			else {
+				emp = new EmployeeConsole();
+				emp.setEmpId(user.getEmpId());
+				emp.start();
+			}
+			
 		}
-		if (user != null) {
-			admin = new AdminConsole();
-			admin.start();
-		} else
-			System.out.println("Invalid Username or Password");
+		else {
+			System.err.println("Invalid Username or Password");
+			try {
+				Thread.sleep(1000);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
 	}
+	
 
 	private static void tryAgain() {
 		System.out.println("Invalid Choice, Please Try Again");
@@ -90,12 +97,17 @@ public class MainUI {
 		System.out.println("Exiting The Program...");
 	}
 	
-	private static void showChoices() {
-
-		System.out.println("[1] Login as Admin");
-		System.out.println("[2] Login as Employee");
-		System.out.println("[3] Exit");
+	private static int showChoices(Scanner scan) throws EMSException {
+		int choice = -1;
+		System.out.println("[1] Login");
+		System.out.println("[2] Exit");
 		System.out.print("Your Choice ? ");
-
+		try {
+			choice = scan.nextInt();
+		} catch(InputMismatchException e) {
+			scan.next();
+			throw new EMSException(Messages.INPUT_MISMATCH);
+		}
+		return choice;
 	}
 }

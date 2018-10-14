@@ -28,9 +28,9 @@ public class LeaveApplicationServiceImpl implements ILeaveApplicationService {
 
 
 	@Override
-	public boolean approveLeave(EmployeeLeave empLeave) throws EMSException {
+	public boolean approveLeave(int leaveId) throws EMSException {
 		
-		return leaveApplicationDao.approveLeave(empLeave);
+		return leaveApplicationDao.approveLeave(leaveId);
 	}
 
 

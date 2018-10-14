@@ -7,6 +7,7 @@ import java.util.List;
 import java.util.Scanner;
 
 
+
 import com.cg.ems.bean.Employee;
 import com.cg.ems.exception.EMSException;
 import com.cg.ems.service.AdminServiceImpl;
@@ -24,40 +25,31 @@ public class AdminConsole {
 	}
 
 	public void start() {
+		int choice = -1;
 		scan = new Scanner(System.in);
-		int choice = 0;
-		
 		while(true) {
-			
-			showChoices();
-			
-			choice = scan.nextInt();
-			
-			switch(choice) {
-			case 1: 
-				try {
+			try {
+				choice = showChoices();
+				switch(choice) {
+				case 1: 
 					addEmployee();
-				} catch (EMSException e) {
-					System.out.println(e.getMessage());
-				}
-				break;
-			case 2: 
-				try {
+					break;
+				case 2: 
 					modifyEmployee();
-				} catch (EMSException e) {
-					System.out.println(e.getMessage());
+					break;
+				case 3: 
+					displayAllEmployees();
+					break;
+				case 4:
+					backToMain();
+					return;
+				case 5: 
+					exit();
+				default:
+					tryAgain();
 				}
-				break;
-			case 3: 
-				displayAllEmployees();
-				break;
-			case 4:
-				backToMain();
-				return;
-			case 5: 
-				exit();
-			default:
-				tryAgain();
+			} catch (EMSException e) {
+				System.out.println(e.getMessage());
 			}
 		}
 	}
@@ -75,22 +67,18 @@ public class AdminConsole {
 		System.out.println("Returning to Main...");
 	}
 
-	private void displayAllEmployees() {
+	private void displayAllEmployees() throws EMSException {
 		List<Employee> employeeList = new ArrayList<>();
-		try {
-			employeeList = adminService.getAllEmployee();
-			for(Employee employee: employeeList)
-				System.out.println(employee.toString());
-		} catch (EMSException e) {
-			System.out.println(e.getMessage());
-		}
-		
+		employeeList = adminService.getAllEmployee();
+		if(employeeList.isEmpty())
+			System.out.println("Currently No Employees are there");
+		for(Employee employee: employeeList)
+			System.out.println(employee.toString());
 	}
 
 	private void modifyEmployee() throws EMSException {
 		
 		System.out.println("Modify Existing Employee");
-		scan = new Scanner(System.in);
 		Employee updatedEmployee = new Employee();
 		
 		String strData;
@@ -124,14 +112,14 @@ public class AdminConsole {
 			
 			System.out.print("Date of Birth (format:  yyyy-dd-MM) ? ");
 			strData = scan.next();
-			dateData = Date.valueOf(strData);
 			if(strData.equals("0")) dateData = employee.getEmpDOB();
+			else dateData = Date.valueOf(strData);
 			updatedEmployee.setEmpDOB(dateData);
 			
-			System.out.print("Date of Joining ? ");
+			System.out.print("Date of Joining ? (format:  yyyy-dd-MM) ");
 			strData = scan.next();
-			dateData = Date.valueOf(strData);
 			if(strData.equals("0")) dateData = employee.getEmpDOJ();
+			else dateData = Date.valueOf(strData);
 			updatedEmployee.setEmpDOJ(dateData);
 			
 			System.out.print("Department Id ? ");
@@ -180,9 +168,11 @@ public class AdminConsole {
 			if(strData.equals("0")) strData = employee.getMgrId();
 			updatedEmployee.setMgrId(strData);
 			
+			updatedEmployee.setEmpLeaveBal(employee.getEmpLeaveBal());
+			
 			success = adminService.updateEmployee(updatedEmployee);
 			if(success) System.out.println("Employee Update Successfully");
-			else throw new EMSException(Messages.UNABLE_TO_COMPLETE_OPERATION);
+			else System.out.println(Messages.UNABLE_TO_COMPLETE_OPERATION);
 			
 		} catch (InputMismatchException e) {
 			throw new EMSException(Messages.INPUT_MISMATCH);
@@ -254,13 +244,20 @@ public class AdminConsole {
 		
 	}
 
-	private void showChoices() {
-
+	private int showChoices() throws EMSException {
+		int choice  = -1;
 		System.out.println("[1] Add Employee");
 		System.out.println("[2] Modify Existing Employee");
 		System.out.println("[3] Display All Existing Employee");
 		System.out.println("[4] Go Back to Main");
 		System.out.println("[5] Exit");
 		System.out.print("Your Choice ? ");
+		
+		try {
+			choice = scan.nextInt();
+		} catch (Exception e) {
+			throw new EMSException(Messages.INPUT_MISMATCH);
+		}
+		return choice;
 	}
 }
