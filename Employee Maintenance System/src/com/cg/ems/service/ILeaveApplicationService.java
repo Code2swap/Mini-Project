@@ -10,7 +10,7 @@ public interface ILeaveApplicationService {
 
 	boolean applyLeave(EmployeeLeave data) throws EMSException;
 	boolean rejectLeave(int leaveId) throws EMSException;
-	List<EmployeeLeave> getAllAppliedLeaves() throws EMSException;
+	List<EmployeeLeave> getAllAppliedLeaves(String mgrId) throws EMSException;
 	boolean approveLeave(int leaveId) throws EMSException;
 	
 }

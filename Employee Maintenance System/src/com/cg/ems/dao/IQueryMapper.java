@@ -12,7 +12,7 @@ public interface IQueryMapper {
 	
 	public static final String APPROVE_LEAVE = "UPDATE Leave_History SET status=? WHERE Leave_Id=?";
 	
-	public static final String GET_ALL_LEAVE = "SELECT * FROM Leave_History WHERE status=? ";
+	public static final String GET_ALL_LEAVE = "SELECT * FROM Leave_History WHERE status=? AND Emp_ID IN (SELECT DISTINCT Emp_ID FROM Employee WHERE Mgr_Id = ?)";
 	
 	public static final String ADD_EMPLOYEE = "INSERT INTO Employee VALUES(?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)";
 	

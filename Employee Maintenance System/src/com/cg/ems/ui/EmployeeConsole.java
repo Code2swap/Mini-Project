@@ -1,11 +1,11 @@
 package com.cg.ems.ui;
 
 import java.sql.Date;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
-
 
 import java.util.concurrent.TimeUnit;
 
@@ -19,7 +19,7 @@ import com.cg.ems.service.UserServiceImpl;
 import com.cg.ems.util.Messages;
 
 public class EmployeeConsole {
-	
+
 	private Scanner scan;
 	private IUserService userService;
 	private ILeaveApplicationService leaveService;
@@ -29,6 +29,7 @@ public class EmployeeConsole {
 	private List<String> stringArray;
 	private char wildcardChar;
 	private List<Employee> empList;
+
 	public EmployeeConsole() {
 		userService = new UserServiceImpl();
 		leaveService = new LeaveApplicationServiceImpl();
@@ -41,15 +42,15 @@ public class EmployeeConsole {
 	public void start() {
 		scan = new Scanner(System.in);
 		int choice = 0;
-		
-		while(true) {
+
+		while (true) {
 			String designation = null;
 			try {
 				designation = userService.getEmployeeById(empId).getEmpDesignation();
-				if(designation.equals("Manager")) {
+				if (designation.equals("Manager")) {
 					showChoicesForManager();
 					choice = scan.nextInt();
-					switch(choice) {
+					switch (choice) {
 					case 1:
 						searchEmployee();
 						break;
@@ -67,11 +68,10 @@ public class EmployeeConsole {
 					default:
 						tryAgain();
 					}
-				}
-				else {
+				} else {
 					showChoices();
 					choice = scan.nextInt();
-					switch(choice) {
+					switch (choice) {
 					case 1:
 						searchEmployee();
 						break;
@@ -87,7 +87,7 @@ public class EmployeeConsole {
 						tryAgain();
 					}
 				}
-			} catch(InputMismatchException e) {
+			} catch (InputMismatchException e) {
 				System.err.println(Messages.INPUT_MISMATCH);
 				scan.next();
 			} catch (EMSException e) {
@@ -95,8 +95,7 @@ public class EmployeeConsole {
 			}
 		}
 	}
-	
-	
+
 	private void showChoicesToManageLeaves() {
 
 		System.out.println("[1] Approve Leave");
@@ -104,10 +103,9 @@ public class EmployeeConsole {
 		System.out.println("[3] Back to Employee Console");
 		System.out.println("[4] Exit");
 		System.out.print("Your Choice ? ");
-		
-		
+
 	}
-	
+
 	private void showChoices() {
 
 		System.out.println("[1] Search Employee");
@@ -115,9 +113,9 @@ public class EmployeeConsole {
 		System.out.println("[3] Back to Main");
 		System.out.println("[4] Exit");
 		System.out.print("Your Choice ? ");
-		
-		
+
 	}
+
 	private void showChoicesForManager() {
 
 		System.out.println("[1] Search Employee");
@@ -127,29 +125,43 @@ public class EmployeeConsole {
 		System.out.println("[5] Exit");
 		System.out.print("Your Choice ? ");
 	}
-	
+
 	private void manageLeave() {
 		int choice = 0;
 		int leaveId = -1;
 		scan = new Scanner(System.in);
 		try {
-			List<EmployeeLeave> empLeaveList = leaveService.getAllAppliedLeaves();
-			empLeaveList.forEach(System.out::println);
+			List<EmployeeLeave> empLeaveList = leaveService.getAllAppliedLeaves(empId);
+			boolean leaveIdExist = false;
 			// if list is empty then show proper message
+			if (empLeaveList.isEmpty()) {
+				System.out.println("No leaves are found for status: Applied" + " and having ManagerId: " + empId);
+				return;
+			}
+			empLeaveList.forEach(System.out::println);
 			System.out.println("Enter leaveId from the above Leave list to Approve/Reject ? ");
+
 			leaveId = scan.nextInt();
 			// check if this leaveId is valid or not in leave_history
+			for (EmployeeLeave leave : empLeaveList) {
+				if (leave.getLeaveId() == leaveId)
+					leaveIdExist = true;
+			}
+			if (!leaveIdExist) {
+				System.out.println("Sorry, entered leaveId not found! Please try again");
+				return;
+			}
 			showChoicesToManageLeaves();
 			choice = scan.nextInt();
-			switch(choice) {
+			switch (choice) {
 			case 1:
-				if(leaveService.approveLeave(leaveId))
+				if (leaveService.approveLeave(leaveId))
 					System.out.println("Leave successfully approved");
 				else
 					System.err.println("Error occured, Not able to approve leave. Please try again...");
 				break;
 			case 2:
-				if(leaveService.rejectLeave(leaveId))
+				if (leaveService.rejectLeave(leaveId))
 					System.out.println("Leave successfully rejected");
 				else
 					System.err.println("Error occured, Not able to reject leave. Please try again...");
@@ -162,7 +174,7 @@ public class EmployeeConsole {
 			default:
 				tryAgain();
 			}
-		} catch(InputMismatchException e) {
+		} catch (InputMismatchException e) {
 			System.err.println(Messages.INPUT_MISMATCH);
 			scan.next();
 		} catch (EMSException e) {
@@ -174,61 +186,69 @@ public class EmployeeConsole {
 		System.out.println("Apply for Leave");
 		Employee employee = null;
 		try {
-			
+			Date today = Date.valueOf(LocalDate.now());
 			employee = userService.getEmployeeById(empId);
-			
+
 			System.out.println(employee.toString());
 			int leaveBal = employee.getEmpLeaveBal();
 			System.out.println("You have Leaves Left: " + leaveBal);
 			EmployeeLeave empLeave = new EmployeeLeave();
-			
-			System.out.println("From Date (format:  yyyy-MM-dd) ? ");
+
+			System.out.print("From Date (format:  yyyy-MM-dd) ? ");
 			empLeave.setFromDate(Date.valueOf(scan.next()));
-			System.out.println("To Date (format:  yyyy-MM-dd) ? ");
+			if (empLeave.getFromDate().compareTo(today) <= 0) {
+				System.err.println("FROM DATE must be ahead of today");
+				return;
+			}
+
+			System.out.print("To Date (format:  yyyy-MM-dd) ? ");
 			empLeave.setToDate(Date.valueOf(scan.next()));
-			
-			int diffDays = 1 + (int )TimeUnit.MILLISECONDS.toDays(empLeave.getToDate().getTime()
-					- empLeave.getFromDate().getTime());
+			if (empLeave.getToDate().compareTo(empLeave.getFromDate()) < 0) {
+				System.err.println("TO DATE must be ahead of FROM DATE");
+				return;
+			}
+
+			int diffDays = 1 + (int) TimeUnit.MILLISECONDS
+					.toDays(empLeave.getToDate().getTime() - empLeave.getFromDate().getTime());
 			empLeave.setLeaveDuration(diffDays);
 			System.out.println(diffDays);
 			System.out.println(leaveBal);
-			if(diffDays < 0) {
+			if (diffDays < 0) {
 				System.err.println("FROM DATE must be less than or equals to TO DATE");
 				return;
 			}
-			if(diffDays > leaveBal) {
+			if (diffDays > leaveBal) {
 				System.out.println("Sorry, Not Sufficient Leaves You have");
 				return;
 			}
-			
+
 			// leaveId is generated by sql sequence
-			//applied date is set by sql
-			
+			// applied date is set by sql
+
 			empLeave.setEmpId(empId);
 			empLeave.setStatus("Applied");
-			if(leaveService.applyLeave(empLeave)) {
+			if (leaveService.applyLeave(empLeave)) {
 				System.out.println("Leave Successfully Applied");
-			}
-			else {
+			} else {
 				System.out.println("Unable to Apply Leave, Please try again");
 			}
-		} catch(IllegalArgumentException e) {
+		} catch (IllegalArgumentException e) {
 			System.err.println(Messages.DATE_FORMAT);
 		} catch (EMSException e) {
 			System.err.println(e.getMessage());
 		}
-		
+
 	}
 
 	private void searchEmployee() {
-		
+
 		int choice = 0;
-		while(true) {
+		while (true) {
 			try {
 				System.out.println("Search Employee");
 				showSearchChoices();
 				choice = scan.nextInt();
-				switch(choice) {
+				switch (choice) {
 				case 1:
 					searchById();
 					break;
@@ -255,31 +275,32 @@ public class EmployeeConsole {
 				default:
 					tryAgain();
 				}
-			} catch(InputMismatchException e) {
+			} catch (InputMismatchException e) {
 				System.err.println(Messages.INPUT_MISMATCH);
 				scan.next();
 			}
 		}
-		
+
 	}
 
 	private void searchByMaritalStatus() {
-		
+
 		int count = 0;
 		stringArray = new ArrayList<>();
-		
+
 		try {
 			System.out.println("Enter Number of Marital Status to be Searched in");
 			number = scan.nextInt();
-			
+
 			System.out.println("Enter <Employee Marital Status/es>");
-			while(count++ < number) stringArray.add(scan.next());
-			
+			while (count++ < number)
+				stringArray.add(scan.next());
+
 			System.out.println("Fetching Searched Employees...");
 			empList = userService.searchByMarital(stringArray);
 			showResults();
-		} catch(InputMismatchException e) {
-			
+		} catch (InputMismatchException e) {
+
 			System.err.println(Messages.INPUT_MISMATCH);
 			scan.next();
 		} catch (EMSException e) {
@@ -288,23 +309,23 @@ public class EmployeeConsole {
 	}
 
 	private void searchByGrade() {
-		
+
 		int count = 0;
 		stringArray = new ArrayList<>();
-		
-		
+
 		try {
 			System.out.println("Enter Number of Grades to be Searched in");
 			number = scan.nextInt();
-			
+
 			System.out.println("Enter <Employee Grade/s>");
-			while(count++ < number) stringArray.add(scan.next());
-			
+			while (count++ < number)
+				stringArray.add(scan.next());
+
 			System.out.println("Fetching Searched Employees...");
 			empList = userService.searchByGrade(stringArray);
 			showResults();
-		} catch(InputMismatchException e) {
-			
+		} catch (InputMismatchException e) {
+
 			System.err.println(Messages.INPUT_MISMATCH);
 			scan.next();
 		} catch (EMSException e) {
@@ -313,21 +334,22 @@ public class EmployeeConsole {
 	}
 
 	private void searchByDepartment() {
-		
+
 		int count = 0;
 		stringArray = new ArrayList<>();
-		
+
 		try {
 			System.out.println("Enter Number of Departments to be Searched in");
 			number = scan.nextInt();
-			
+
 			System.out.println("Enter <Employee Department Name/s>");
-			while(count++ < number) stringArray.add(scan.next());
-			
+			while (count++ < number)
+				stringArray.add(scan.next());
+
 			System.out.println("Fetching Searched Employees...");
 			empList = userService.searchByDept(stringArray);
 			showResults();
-		} catch(InputMismatchException e) {
+		} catch (InputMismatchException e) {
 			System.err.println(Messages.INPUT_MISMATCH);
 			scan.next();
 		} catch (EMSException e) {
@@ -339,7 +361,7 @@ public class EmployeeConsole {
 		System.out.println("Enter <Employee Last Name> and <Wildcard Character>");
 		string = scan.next();
 		wildcardChar = scan.next().charAt(0);
-		if(wildcardChar != '*' && wildcardChar != '?') {
+		if (wildcardChar != '*' && wildcardChar != '?') {
 			System.out.println("Invalid Character, Please Try Again");
 			return;
 		}
@@ -356,7 +378,7 @@ public class EmployeeConsole {
 		System.out.println("Enter <Employee First Name> and <Wildcard Character>");
 		string = scan.next();
 		wildcardChar = scan.next().charAt(0);
-		if(wildcardChar != '*' && wildcardChar != '?') {
+		if (wildcardChar != '*' && wildcardChar != '?') {
 			System.out.println("Invalid Character, Please Try Again");
 			return;
 		}
@@ -373,7 +395,7 @@ public class EmployeeConsole {
 		System.out.println("Enter <Employee Id> and <Wildcard Character>");
 		string = scan.next();
 		wildcardChar = scan.next().charAt(0);
-		if(wildcardChar != '*' && wildcardChar != '?') {
+		if (wildcardChar != '*' && wildcardChar != '?') {
 			System.out.println("Invalid Character, Please Try Again");
 			return;
 		}
@@ -403,13 +425,13 @@ public class EmployeeConsole {
 	}
 
 	private void showResults() {
-		if(empList.isEmpty()) {
+		if (empList.isEmpty()) {
 			System.out.println("Sorry, No results found");
-		}
-		else {
+		} else {
 			empList.forEach(System.out::println);
 		}
 	}
+
 	private void tryAgain() {
 		System.out.println("Invalid Choice, Please Try Again");
 	}
@@ -422,6 +444,5 @@ public class EmployeeConsole {
 	private void backToMain() {
 		System.out.println("Returning to Main...");
 	}
-	
-	
+
 }

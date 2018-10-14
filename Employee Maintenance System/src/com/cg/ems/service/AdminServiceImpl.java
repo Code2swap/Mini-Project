@@ -5,7 +5,6 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -77,10 +76,105 @@ public class AdminServiceImpl implements IAdminService {
 		if (!isValidAge(employee.getEmpDOB())) {
 			validationErrors.add("Age must be between 18 to 58");
 		}
+
+		// validate Gender
+		if (!isValidGender(employee.getEmpGender())) {
+			validationErrors.add("Must be Male(M) or Female(F)");
+		}
+		//validate grade 
+		if(!isValidGrade(employee.getEmpGrade())) {
+			validationErrors.add("Grade must be between M1 to M7");
+		}
+		// validate marital status
+		if (!isValidMaritalStatus(employee.getEmpMarital())) {
+			validationErrors.add("Marital status must be from Single, Married, Divorced, Separated or Widowed");
+		}
+		
+		//validate designation
+		if(!isValidDesignation(employee.getEmpDesignation())) {
+			validationErrors.add("Designation must be less than 50 words");
+		}
+		
+		//validate address
+		if(!isValidAddress(employee.getEmpAddress())) {
+			validationErrors.add("Address should have AlphaNumeric characters only");
+		}
+		
+		// validate Phone Number
+		if (!isValidContact(employee.getEmpContact())) {
+			validationErrors.add("Must be of 10 digits and start with 7,8 or 9");
+		}
 		return validationErrors;
 	}
+	
+	//validation methods
+	public boolean isValidAddress(String empAddress) {
 
-	// validation methods
+		Pattern namePattern = Pattern.compile("^[A-Za-z0-9]{0,}$");
+		Matcher nameMatcher = namePattern.matcher(empAddress);
+		return nameMatcher.matches();
+
+	}
+
+	public boolean isValidDesignation(String empDesignation) {
+		return empDesignation.length() <= 50;
+
+	}
+
+	public boolean isValidGrade(String empGrade) {
+		if (empGrade.equals("M1")) {
+			return true;
+		} else if (empGrade.equals("M2")) {
+			return true;
+		} else if (empGrade.equals("M3")) {
+			return true;
+		} else if (empGrade.equals("M4")) {
+			return true;
+		} else if (empGrade.equals("M5")) {
+			return true;
+		} else if (empGrade.equals("M6")) {
+			return true;
+		} else if (empGrade.equals("M7")) {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	private boolean isValidContact(String empContact) {
+
+		Pattern namePattern = Pattern.compile("^[7/8/9]{1}[0-9]{9}$");
+		Matcher nameMatcher = namePattern.matcher(empContact);
+		return nameMatcher.matches();
+
+	}
+
+	private boolean isValidGender(char empGender) {
+		if (empGender == 'M' || empGender == 'F') {
+			return true;
+		} else {
+			return false;
+		}
+	}
+
+	private boolean isValidMaritalStatus(String empMarital) {
+
+		if (empMarital.equals("Single")) {
+			return true;
+		} else if (empMarital.equals("Married")) {
+			return true;
+		} else if (empMarital.equals("Divorced")) {
+			return true;
+		} else if (empMarital.equals("Separated")) {
+			return true;
+		} else if (empMarital.equals("Widowed")) {
+			return true;
+		} else {
+
+			return false;
+		}
+	}
+
 	private boolean isValidAge(Date empDOB) {
 		Period diff = Period.between(empDOB.toLocalDate(), LocalDate.now());
 		int age = diff.getYears();

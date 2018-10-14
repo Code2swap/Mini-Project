@@ -48,9 +48,9 @@ public class LeaveApplicationServiceImpl implements ILeaveApplicationService {
 
 
 	@Override
-	public List<EmployeeLeave> getAllAppliedLeaves() throws EMSException {
+	public List<EmployeeLeave> getAllAppliedLeaves(String mgrId) throws EMSException {
 	
-		return leaveApplicationDao.getAllAppliedLeaves();
+		return leaveApplicationDao.getAllAppliedLeaves(mgrId);
 	}
 
 }

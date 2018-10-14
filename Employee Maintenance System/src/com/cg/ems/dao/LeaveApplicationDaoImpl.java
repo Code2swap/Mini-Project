@@ -123,7 +123,7 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 		return result;
 	}
 
-	private EmployeeLeave getEmpLeaveById(int leaveId) throws EMSException {
+	public EmployeeLeave getEmpLeaveById(int leaveId) throws EMSException {
 		EmployeeLeave empLeave = null;
 		Connection con = null;
 		PreparedStatement stmt = null;
@@ -196,7 +196,7 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 	}
 
 	@Override
-	public List<EmployeeLeave> getAllAppliedLeaves() throws EMSException {
+	public List<EmployeeLeave> getAllAppliedLeaves(String mgrId) throws EMSException {
 		List<EmployeeLeave> empLeaveList = new ArrayList<EmployeeLeave>();
 		Connection con = null;
 		PreparedStatement st1 = null;
@@ -205,6 +205,7 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 			st1 = con.prepareStatement(IQueryMapper.GET_ALL_LEAVE);
 			con.setAutoCommit(false);
 			st1.setString(1, "Applied");
+			st1.setString(2, mgrId);
 			ResultSet rs = st1.executeQuery();
 
 			while (rs.next()) {

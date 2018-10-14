@@ -175,6 +175,8 @@ public class AdminConsole {
 			if(success) System.out.println("Employee Update Successfully");
 			else System.err.println("Unable to upadte, please try again");
 			
+		} catch(IllegalArgumentException e) {
+			throw new EMSException(Messages.DATE_FORMAT);
 		} catch (InputMismatchException e) {
 			scan.next();
 			throw new EMSException(Messages.INPUT_MISMATCH);
@@ -223,9 +225,11 @@ public class AdminConsole {
 		try {
 			System.out.print("Employee Id ? ");
 			employee.setEmpId(scan.next());
-			
 			// check if entered employee id already exists in table
-			// also validations
+			if(adminService.getEmployeeById(employee.getEmpId()) != null) {
+				System.err.println("Employee Id already exists, please try again");
+				return;
+			}
 			
 			System.out.print("First Name ? ");
 			employee.setEmpFName(scan.next());

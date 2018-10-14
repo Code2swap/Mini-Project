@@ -64,8 +64,6 @@ public class MainUI {
 		System.out.print("Password? ");
 		String userPassword = scan.next();
 		user = service.getUser(userName, userPassword);
-		System.out.println("Your Details");
-		System.out.println(user);
 		if (user != null) {
 			if(user.getUserType().equals("ADMIN")) {
 				admin = new AdminConsole();

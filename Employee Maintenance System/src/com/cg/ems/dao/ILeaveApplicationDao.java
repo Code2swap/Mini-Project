@@ -15,7 +15,7 @@ public interface ILeaveApplicationDao {
 
 	
 	boolean rejectLeave(int leaveId) throws EMSException;
-	List<EmployeeLeave> getAllAppliedLeaves() throws EMSException;
+	List<EmployeeLeave> getAllAppliedLeaves(String mgrId) throws EMSException;
 
 	boolean approveLeave(int leaveId) throws EMSException;
 }
