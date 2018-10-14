@@ -2,6 +2,8 @@ package com.cg.ems.test;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertNotSame;
+import static org.junit.Assert.assertNull;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -20,15 +22,14 @@ public class AdminDaoTest {
 	public static void initialize() {
 		System.out.println("Testing Admin DAO");
 		adminDao = new AdminDaoImpl();
-		employee = new Employee("200001","Test","User",null,null,10,"M1","TestManager",500,
-				'M', "Married" , "Whitefield","9874563256","100004", 12);	
+		employee = new Employee("300004", "First2", "Last2", null, null, 121 , "M4", "Analyst", 400000, 'F', "Single" , "Bellandur", "9453394101", "100004", 12);
 		//change the value of date as per validations written
 	}
 	
 	
 	@Test
 	public void addEmployee() throws EMSException {
-		assertNotNull(adminDao.addEmployee(employee));
+		assertEquals(true, adminDao.addEmployee(employee));
 	}
 	
 	@Test
@@ -38,7 +39,9 @@ public class AdminDaoTest {
 
 	@Test
 	public void getEmployeeById() throws EMSException {
-		assertEquals("Test case failed", employee, adminDao.getEmployeeById("200001"));
+		// make sure there is an employee with empId = 300001
+		assertNull(adminDao.getEmployeeById("400001"));
+		assertNotSame(employee, adminDao.getEmployeeById("300001"));
 	}
 	
 	

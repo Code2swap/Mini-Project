@@ -1,6 +1,6 @@
 package com.cg.ems.test;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import org.junit.AfterClass;
 import org.junit.BeforeClass;
@@ -15,17 +15,17 @@ public class AuthenticationDaoTest {
 	
 	static IAuthenticationDao authenticationDao;
 	static User user;
-	
 	@BeforeClass
 	public static void initialize() throws EMSException {
 		System.out.println("Testing Authentication DAO");
 		authenticationDao = new AuthenticationDaoImpl();
-		user = new User("1009","LUCY","lucy123","EMPLOYEE", "100009");
+		user = new User("1008","LUCY","lucy123","EMPLOYEE", "300001");
+		// add this user in User_Master table first
 	}
 	
 	@Test
 	public void getUser() throws EMSException {
-		assertEquals("Getting User Failed", user, authenticationDao.getUser("LUCY","lucy123"));
+		assertNotNull("Getting User Failed", authenticationDao.getUser("LUCY","lucy123"));
 	}
 	
 	@AfterClass
