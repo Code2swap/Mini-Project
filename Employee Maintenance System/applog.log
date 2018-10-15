@@ -76,3 +76,1976 @@
 15-Oct-2018 00:22:45 INFO [DB Connection]- Connection successful
 15-Oct-2018 00:22:45 INFO [Admin Console]- Displaying choices for manager
 15-Oct-2018 00:22:50 INFO [Admin Console]- Terminating the application
+15-Oct-2018 07:39:28 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 07:39:28 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:29 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:29 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:30 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:31 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:31 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:32 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:33 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:34 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:34 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:35 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:35 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:36 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:36 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:36 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:37 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:37 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:38 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:38 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:39 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:39 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:40 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:40 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:41 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:42 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:42 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:43 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:43 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:44 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:44 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:45 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:45 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:45 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:46 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:46 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:47 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:47 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:48 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:48 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:49 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:49 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:50 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:50 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:51 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:51 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:52 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:52 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 07:39:53 ERROR [DB Connection]- Can not establish connection
+15-Oct-2018 07:39:53 ERROR [Main Console]- com.cg.ems.exception.EMSException: Connection is not established
+15-Oct-2018 07:39:53 INFO [DB Connection]- Property file read successfully
