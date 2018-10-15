@@ -7,6 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 import com.cg.ems.bean.Employee;
 import com.cg.ems.exception.EMSException;
 import com.cg.ems.util.ConnectionProvider;
@@ -15,6 +18,24 @@ import com.cg.ems.dao.IQueryMapper;
 
 public class UserDaoImpl implements IUserDao {
 
+	static Logger logger = Logger.getLogger("applog");
+	
+	public UserDaoImpl() {
+		
+		PropertyConfigurator.configure("resources//log4j.properties");
+		
+	}
+	
+	//------------------------Employee Management System --------------------------
+		/*******************************************************************************************************
+			- Function Name		:	getEmployeeById
+			- Input Parameters	:	String Employee id
+			- Return Type		:	Employee object
+			- Throws			:  	EMSException
+			- Author			:	
+			- Creation Date		:	12/10/2018
+			- Description		:	fetch employee details by id
+		********************************************************************************************************/	
 	@Override
 	public Employee getEmployeeById(String empId) throws EMSException {
 		Employee emp = null;
@@ -46,6 +67,7 @@ public class UserDaoImpl implements IUserDao {
 			}
 
 		} catch (SQLException e) {
+			logger.error("Database error: Unable to fetch record");
 			throw new EMSException(Messages.NOT_FETCHED);
 		} finally {
 
@@ -53,7 +75,7 @@ public class UserDaoImpl implements IUserDao {
 				st.close();
 				con.close();
 			} catch (SQLException e) {
-
+				logger.error("Database error: Unable to close connection");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 
@@ -61,7 +83,16 @@ public class UserDaoImpl implements IUserDao {
 		return emp;
 
 	}
-
+	//------------------------Employee Management System --------------------------
+			/*******************************************************************************************************
+				- Function Name		:	searchById
+				- Input Parameters	:	String Employee id,char wildcard character
+				- Return Type		:	List of Employee object
+				- Throws			:  	EMSException
+				- Author			:	
+				- Creation Date		:	12/10/2018
+				- Description		:	fetch employee details by id and wildcard character
+			********************************************************************************************************/	
 	@Override
 	public List<Employee> searchById(String empId, char wildcardChar) throws EMSException {
 
@@ -104,7 +135,7 @@ public class UserDaoImpl implements IUserDao {
 			}
 
 		} catch (SQLException e) {
-
+			logger.error("Database error: Unable to fetch record");
 			throw new EMSException(Messages.NOT_FETCHED);
 		} finally {
 
@@ -112,7 +143,7 @@ public class UserDaoImpl implements IUserDao {
 				st.close();
 				con.close();
 			} catch (SQLException e) {
-
+				logger.error("Database error: Unable to close cnnection");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 
@@ -120,6 +151,17 @@ public class UserDaoImpl implements IUserDao {
 		return empList;
 
 	}
+	
+	//------------------------Employee Management System --------------------------
+	/*******************************************************************************************************
+		- Function Name		:	searchByFirstName
+		- Input Parameters	:	String Employee Name,char wildcard character
+		- Return Type		:	List of Employee object
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	fetch employee details by first name and wildcard character
+	********************************************************************************************************/	
 
 	@Override
 	public List<Employee> searchByFirstName(String empFName, char wildcardChar) throws EMSException {
@@ -163,7 +205,7 @@ public class UserDaoImpl implements IUserDao {
 			}
 
 		} catch (SQLException e) {
-
+			logger.error("Database error: Unable to fetch record");
 			throw new EMSException(Messages.NOT_FETCHED);
 		} finally {
 
@@ -171,7 +213,7 @@ public class UserDaoImpl implements IUserDao {
 				st.close();
 				con.close();
 			} catch (SQLException e) {
-
+				logger.error("Database error: Unable to close connection");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 
@@ -179,6 +221,16 @@ public class UserDaoImpl implements IUserDao {
 		return empList;
 	}
 
+	//------------------------Employee Management System --------------------------
+	/*******************************************************************************************************
+		- Function Name		:	searchByLastName
+		- Input Parameters	:	String Employee last name,char wildcard character
+		- Return Type		:	List of Employee object
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	fetch employee details by last name and wildcard character
+	********************************************************************************************************/	
 	@Override
 	public List<Employee> searchByLastName(String empLName, char wildcardChar) throws EMSException {
 		Employee emp = null;
@@ -220,7 +272,7 @@ public class UserDaoImpl implements IUserDao {
 			}
 
 		} catch (SQLException e) {
-
+			logger.error("Database error: Unable to fetch record");
 			throw new EMSException(Messages.NOT_FETCHED);
 		} finally {
 
@@ -228,7 +280,7 @@ public class UserDaoImpl implements IUserDao {
 				st.close();
 				con.close();
 			} catch (SQLException e) {
-
+				logger.error("Database error: Unable to close connection");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 
@@ -236,6 +288,17 @@ public class UserDaoImpl implements IUserDao {
 		return empList;
 
 	}
+	
+	//------------------------Employee Management System --------------------------
+	/*******************************************************************************************************
+		- Function Name		:	searchByDept
+		- Input Parameters	:	List of String Departments
+		- Return Type		:	List of Employee object
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	fetch employee details by passing department list 
+	********************************************************************************************************/	
 
 	@Override
 	public List<Employee> searchByDept(List<String> empDeptNames) throws EMSException {
@@ -283,7 +346,7 @@ public class UserDaoImpl implements IUserDao {
 			}
 
 		} catch (SQLException e) {
-
+			logger.error("Database error: Unable to fetch data");
 			throw new EMSException(Messages.NOT_FETCHED);
 		} finally {
 
@@ -291,7 +354,7 @@ public class UserDaoImpl implements IUserDao {
 				st.close();
 				con.close();
 			} catch (SQLException e) {
-
+				logger.error("Database error: Unable to close connection");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 
@@ -300,6 +363,16 @@ public class UserDaoImpl implements IUserDao {
 
 	}
 
+	//------------------------Employee Management System --------------------------
+	/*******************************************************************************************************
+		- Function Name		:	searchByGrade
+		- Input Parameters	:	List of String grades 
+		- Return Type		:	List of Employee object
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	fetch employee details by list of grades 
+	********************************************************************************************************/	
 	@Override
 	public List<Employee> searchByGrade(List<String> empGrades) throws EMSException {
 
@@ -346,7 +419,7 @@ public class UserDaoImpl implements IUserDao {
 			}
 
 		} catch (SQLException e) {
-
+			logger.error("Database error: Unable to fetch record");
 			throw new EMSException(Messages.NOT_FETCHED);
 		} finally {
 
@@ -354,7 +427,7 @@ public class UserDaoImpl implements IUserDao {
 				st.close();
 				con.close();
 			} catch (SQLException e) {
-
+				logger.error("Database error: Unable to close connection");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 
@@ -363,6 +436,16 @@ public class UserDaoImpl implements IUserDao {
 
 	}
 
+	//------------------------Employee Management System --------------------------
+	/*******************************************************************************************************
+		- Function Name		:	searchByMarital
+		- Input Parameters	:	list of String marital status
+		- Return Type		:	List of Employee object
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	fetch employee details by Marital status
+	********************************************************************************************************/	
 	@Override
 	public List<Employee> searchByMarital(List<String> empMarital) throws EMSException {
 
@@ -411,7 +494,7 @@ public class UserDaoImpl implements IUserDao {
 			}
 
 		} catch (SQLException e) {
-
+			logger.error("Database error: Unable to fetch record");
 			throw new EMSException(Messages.NOT_FETCHED);
 		} finally {
 
@@ -419,7 +502,7 @@ public class UserDaoImpl implements IUserDao {
 				st.close();
 				con.close();
 			} catch (SQLException e) {
-
+				logger.error("Database error: Unable to close connection");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 

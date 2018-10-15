@@ -1,78 +1,578 @@
-15-Oct-2018 00:19:12 INFO [DB Connection]- Driver Loaded
-15-Oct-2018 00:19:12 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:19:13 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:19:13 INFO [Main Console]- No leaves to auto approve
-15-Oct-2018 00:19:14 ERROR [Main Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
-15-Oct-2018 00:19:14 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:19:14 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:19:14 INFO [Main Console]- No leaves to auto approve
-15-Oct-2018 00:19:15 INFO [Main Console]- user login
-15-Oct-2018 00:19:23 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:19:23 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:19:23 ERROR [Main Console]- Username or password is not correct
-15-Oct-2018 00:19:24 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:19:24 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:19:24 INFO [Main Console]- No leaves to auto approve
-15-Oct-2018 00:19:39 INFO [Main Console]- user login
-15-Oct-2018 00:19:43 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:19:43 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:19:43 INFO [Main Console]- Login successful
-15-Oct-2018 00:19:43 INFO [Admin Console]- Admin console started
-15-Oct-2018 00:19:43 INFO [Admin Console]- Choices for user
-15-Oct-2018 00:19:52 INFO [Admin Console]- Displaying all employees
-15-Oct-2018 00:19:52 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:19:52 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:19:52 INFO [Admin Console]- Choices for user
-15-Oct-2018 00:19:59 INFO [Admin Console]- Back to main console
-15-Oct-2018 00:19:59 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:19:59 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:19:59 INFO [Main Console]- No leaves to auto approve
-15-Oct-2018 00:20:01 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:20:02 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:20:02 INFO [Main Console]- No leaves to auto approve
-15-Oct-2018 00:21:31 INFO [DB Connection]- Driver Loaded
-15-Oct-2018 00:21:31 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:21:32 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:21:32 INFO [Main Console]- No leaves to auto approve
-15-Oct-2018 00:21:33 INFO [Main Console]- user login
-15-Oct-2018 00:21:44 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:21:44 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:21:44 INFO [Main Console]- Login successful
-15-Oct-2018 00:21:44 INFO [Admin Console]- Employee console started
-15-Oct-2018 00:21:44 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:21:44 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:21:44 INFO [Admin Console]- Displaying choices for manager
-15-Oct-2018 00:21:48 INFO [Admin Console]- Managing leaves
-15-Oct-2018 00:21:48 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:21:48 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:21:51 ERROR [Admin Console]- Input type mismatch
-15-Oct-2018 00:21:51 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:21:51 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:21:51 INFO [Admin Console]- Displaying choices for manager
-15-Oct-2018 00:21:53 WARN [Admin Console]- Invalid input choice
-15-Oct-2018 00:21:53 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:21:53 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:21:53 INFO [Admin Console]- Displaying choices for manager
-15-Oct-2018 00:21:58 INFO [Admin Console]- Applying for leaves
-15-Oct-2018 00:21:58 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:21:58 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:22:02 ERROR [Admin Console]- Incorrect format for date
-15-Oct-2018 00:22:02 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:22:02 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:22:02 INFO [Admin Console]- Displaying choices for manager
-15-Oct-2018 00:22:08 ERROR [Admin Console]- Input type mismatch
-15-Oct-2018 00:22:08 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:22:08 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:22:08 INFO [Admin Console]- Displaying choices for manager
-15-Oct-2018 00:22:14 INFO [Admin Console]- Applying for leaves
-15-Oct-2018 00:22:14 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:22:14 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:22:21 ERROR [Admin Console]- Incorrect format for date
-15-Oct-2018 00:22:21 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:22:21 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:22:21 INFO [Admin Console]- Displaying choices for manager
-15-Oct-2018 00:22:45 ERROR [Admin Console]- Input type mismatch
-15-Oct-2018 00:22:45 INFO [DB Connection]- Property file read successfully
-15-Oct-2018 00:22:45 INFO [DB Connection]- Connection successful
-15-Oct-2018 00:22:45 INFO [Admin Console]- Displaying choices for manager
-15-Oct-2018 00:22:50 INFO [Admin Console]- Terminating the application
+15-Oct-2018 09:02:19 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:02:19 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:02:20 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:02:20 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:02:25 ERROR [Main Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
+15-Oct-2018 09:02:25 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:02:25 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:02:25 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:02:36 INFO [Main Console]- user login
+15-Oct-2018 09:02:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:02:41 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:02:41 INFO [Main Console]- Login successful
+15-Oct-2018 09:02:41 INFO [Admin Console]- Admin console started
+15-Oct-2018 09:02:41 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:02:44 INFO [Admin Console]- adding employee to db
+15-Oct-2018 09:02:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:02:52 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:02:52 ERROR [Admin Console]- Employee id already exist in table
+15-Oct-2018 09:02:52 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:02:59 WARN [Admin Console]- Invalid choice entered by the user
+15-Oct-2018 09:02:59 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:03:06 INFO [Admin Console]- adding employee to db
+15-Oct-2018 09:03:11 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:03:11 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:04:22 ERROR [Admin Console]- Input type mismatch
+15-Oct-2018 09:04:22 ERROR [Admin Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
+15-Oct-2018 09:04:22 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:05:17 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:05:17 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:05:18 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:05:18 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:05:19 INFO [Main Console]- user login
+15-Oct-2018 09:05:24 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:05:24 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:05:24 INFO [Main Console]- Login successful
+15-Oct-2018 09:05:24 INFO [Admin Console]- Admin console started
+15-Oct-2018 09:05:24 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:05:25 INFO [Admin Console]- adding employee to db
+15-Oct-2018 09:05:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:05:31 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:06:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:06:50 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:06:50 INFO [applog]- Record inserted in the database
+15-Oct-2018 09:06:50 INFO [Admin Console]- Validation successful
+15-Oct-2018 09:06:50 INFO [Admin Console]- Adding user credentials
+15-Oct-2018 09:06:50 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:06:50 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:06:50 ERROR [applog]- Database Error: Data not inserted
+15-Oct-2018 09:06:50 ERROR [Admin Console]- com.cg.ems.exception.EMSException: Unable to insert into the database
+15-Oct-2018 09:06:50 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:10:37 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:10:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:10:37 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:10:37 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:10:39 INFO [Main Console]- user login
+15-Oct-2018 09:10:42 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:10:42 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:10:42 INFO [Main Console]- Login successful
+15-Oct-2018 09:10:42 INFO [Admin Console]- Admin console started
+15-Oct-2018 09:10:42 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:10:44 INFO [Admin Console]- adding employee to db
+15-Oct-2018 09:10:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:10:49 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:11:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:11:40 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:11:40 INFO [applog]- Record inserted in the database
+15-Oct-2018 09:11:40 INFO [Admin Console]- Validation successful
+15-Oct-2018 09:11:40 INFO [Admin Console]- Adding user credentials
+15-Oct-2018 09:11:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:11:40 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:11:40 INFO [applog]- User credentials entered in database
+15-Oct-2018 09:11:40 INFO [Admin Console]- Credentials successfully added
+15-Oct-2018 09:11:40 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:12:46 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:12:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:12:46 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:12:47 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:12:48 INFO [Main Console]- user login
+15-Oct-2018 09:12:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:12:51 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:12:51 INFO [Main Console]- Login successful
+15-Oct-2018 09:12:51 INFO [Admin Console]- Admin console started
+15-Oct-2018 09:12:51 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:12:53 INFO [Admin Console]- adding employee to db
+15-Oct-2018 09:13:00 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:13:00 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:13:12 ERROR [Admin Console]- Incorrect format for date
+15-Oct-2018 09:13:12 ERROR [Admin Console]- com.cg.ems.exception.EMSException: Incorrect Date format
+15-Oct-2018 09:13:14 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:13:16 INFO [Admin Console]- adding employee to db
+15-Oct-2018 09:13:18 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:13:18 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:13:28 ERROR [Admin Console]- Input type mismatch
+15-Oct-2018 09:13:28 ERROR [Admin Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
+15-Oct-2018 09:13:29 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:13:33 INFO [Admin Console]- adding employee to db
+15-Oct-2018 09:13:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:13:40 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:14:32 ERROR [Admin Console]- Validation errors
+15-Oct-2018 09:14:33 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:15:04 INFO [Admin Console]- Displaying all employees
+15-Oct-2018 09:15:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:15:04 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:15:04 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:17:02 INFO [Admin Console]- modifying employee
+15-Oct-2018 09:17:07 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:17:07 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:17:07 ERROR [Admin Console]- no data found
+15-Oct-2018 09:17:07 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:17:13 INFO [Admin Console]- modifying employee
+15-Oct-2018 09:17:17 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:17:17 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:19:46 INFO [Admin Console]- Validation succesful
+15-Oct-2018 09:19:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:19:46 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:19:46 INFO [applog]- successfully updated
+15-Oct-2018 09:19:46 INFO [Admin Console]- Employee data updated
+15-Oct-2018 09:19:46 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:19:52 INFO [Admin Console]- Displaying all employees
+15-Oct-2018 09:19:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:19:52 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:19:52 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:27:41 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:27:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:27:42 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:27:42 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:27:43 INFO [Main Console]- user login
+15-Oct-2018 09:27:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:27:47 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:27:47 ERROR [Main Console]- Username or password is not correct
+15-Oct-2018 09:27:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:27:48 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:27:48 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:27:51 INFO [Main Console]- user login
+15-Oct-2018 09:27:55 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:27:55 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:27:55 INFO [Main Console]- Login successful
+15-Oct-2018 09:27:55 INFO [Admin Console]- Admin console started
+15-Oct-2018 09:27:55 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:27:56 INFO [Admin Console]- modifying employee
+15-Oct-2018 09:28:07 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:28:07 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:28:35 INFO [Admin Console]- Validation succesful
+15-Oct-2018 09:28:35 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:28:35 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:28:35 INFO [applog]- successfully updated
+15-Oct-2018 09:28:35 INFO [Admin Console]- Employee data updated
+15-Oct-2018 09:28:35 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:28:38 INFO [Admin Console]- Displaying all employees
+15-Oct-2018 09:28:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:28:38 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:28:38 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:28:49 INFO [Admin Console]- Displaying all employees
+15-Oct-2018 09:28:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:28:49 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:28:49 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:28:54 INFO [Admin Console]- Back to main console
+15-Oct-2018 09:28:54 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:28:54 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:28:54 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:29:00 INFO [Main Console]- user login
+15-Oct-2018 09:29:06 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:29:06 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:29:07 INFO [Main Console]- Login successful
+15-Oct-2018 09:29:07 INFO [Admin Console]- Employee console started
+15-Oct-2018 09:29:07 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:29:07 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:29:07 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 09:29:09 INFO [Admin Console]- Searhcing employee
+15-Oct-2018 09:29:09 INFO [Admin Console]- showing choices to search employee
+15-Oct-2018 09:29:15 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:29:15 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:29:15 INFO [Admin Console]- Showing searched results
+15-Oct-2018 09:29:15 INFO [Admin Console]- showing choices to search employee
+15-Oct-2018 09:31:13 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:31:13 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:31:13 WARN [Admin Console]- Search results is empty
+15-Oct-2018 09:31:13 INFO [Admin Console]- showing choices to search employee
+15-Oct-2018 09:31:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:31:31 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:31:31 INFO [Admin Console]- Showing searched results
+15-Oct-2018 09:31:31 INFO [Admin Console]- showing choices to search employee
+15-Oct-2018 09:31:42 INFO [Admin Console]- Terminating the application
+15-Oct-2018 09:31:48 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:31:48 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:31:49 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:31:49 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:31:51 INFO [Main Console]- user login
+15-Oct-2018 09:31:55 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:31:55 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:31:55 INFO [Main Console]- Login successful
+15-Oct-2018 09:31:55 INFO [Admin Console]- Employee console started
+15-Oct-2018 09:31:55 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:31:55 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:31:55 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 09:32:00 INFO [Admin Console]- Managing leaves
+15-Oct-2018 09:32:00 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:00 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:00 WARN [Admin Console]- No leaves are applied under this manager
+15-Oct-2018 09:32:00 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:00 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:00 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 09:32:13 INFO [Admin Console]- Applying for leaves
+15-Oct-2018 09:32:13 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:13 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:27 ERROR [Admin Console]- Incorrect format for date
+15-Oct-2018 09:32:27 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:27 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:27 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 09:32:30 INFO [Admin Console]- returning to main
+15-Oct-2018 09:32:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:30 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:30 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:32:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
+15-Oct-2018 09:32:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:32 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:32 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:32:34 INFO [Main Console]- user login
+15-Oct-2018 09:32:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:37 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:37 INFO [Main Console]- Login successful
+15-Oct-2018 09:32:37 INFO [Admin Console]- Employee console started
+15-Oct-2018 09:32:37 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:37 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:37 INFO [Admin Console]- Displaying choices for common employees
+15-Oct-2018 09:32:41 INFO [Admin Console]- Applying for leaves
+15-Oct-2018 09:32:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:41 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:54 WARN [Admin Console]- Not enough leaves
+15-Oct-2018 09:32:54 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:32:54 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:32:54 INFO [Admin Console]- Displaying choices for common employees
+15-Oct-2018 09:33:28 INFO [Admin Console]- returning to main
+15-Oct-2018 09:33:28 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:33:28 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:33:28 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:33:30 ERROR [Main Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
+15-Oct-2018 09:33:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:33:30 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:33:30 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:33:32 ERROR [Main Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
+15-Oct-2018 09:33:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:33:32 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:33:32 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 09:33:33 INFO [Main Console]- user login
+15-Oct-2018 09:33:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:33:38 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:33:38 INFO [Main Console]- Login successful
+15-Oct-2018 09:33:38 INFO [Admin Console]- Admin console started
+15-Oct-2018 09:33:38 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:33:41 INFO [Admin Console]- adding employee to db
+15-Oct-2018 09:33:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:33:52 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:34:24 ERROR [Admin Console]- Incorrect format for date
+15-Oct-2018 09:34:24 ERROR [Admin Console]- com.cg.ems.exception.EMSException: Incorrect Date format
+15-Oct-2018 09:34:25 INFO [Admin Console]- Choices for user
+15-Oct-2018 09:35:14 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:35:14 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:35:15 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:35:15 INFO [applog]- Record inserted in the database
+15-Oct-2018 09:35:15 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:35:15 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:35:15 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:35:15 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:35:15 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:35:15 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:37:03 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:37:03 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:37:04 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:37:04 ERROR [applog]- Database Error : data not stored
+15-Oct-2018 09:37:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:37:04 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:37:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:37:04 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:37:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:37:04 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:37:13 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:37:13 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:37:14 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:37:14 ERROR [applog]- Database Error: Data not inserted
+15-Oct-2018 09:38:29 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:38:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:38:30 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:38:30 INFO [applog]- User credentials entered in database
+15-Oct-2018 09:38:30 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:38:30 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:38:57 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:38:57 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:38:57 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:40:17 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:40:17 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:40:18 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:40:18 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:40:18 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:40:18 INFO [applog]- Committed successfully
+15-Oct-2018 09:40:18 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:40:18 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:40:18 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:40:18 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:41:04 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 09:41:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:41:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:41:05 INFO [applog]- Record inserted in the database
+15-Oct-2018 09:41:05 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:41:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:41:05 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:41:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:41:05 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:41:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:41:05 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:41:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:41:05 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:41:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:41:05 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:41:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 09:41:05 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 09:41:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 10:49:58 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 10:49:58 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 10:49:59 INFO [DB Connection]- Connection successful
+15-Oct-2018 10:49:59 ERROR [applog]- Database Error : data not stored
+15-Oct-2018 10:50:07 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 10:50:07 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 10:50:07 INFO [DB Connection]- Connection successful
+15-Oct-2018 10:50:08 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 10:50:10 INFO [Main Console]- user login
+15-Oct-2018 10:50:15 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 10:50:15 INFO [DB Connection]- Connection successful
+15-Oct-2018 10:50:15 INFO [Main Console]- Login successful
+15-Oct-2018 10:50:15 INFO [Admin Console]- Admin console started
+15-Oct-2018 10:50:15 INFO [Admin Console]- Choices for user
+15-Oct-2018 10:50:17 INFO [Admin Console]- adding employee to db
+15-Oct-2018 10:50:25 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 10:50:25 INFO [DB Connection]- Connection successful
+15-Oct-2018 10:51:05 ERROR [Admin Console]- Validation errors
+15-Oct-2018 10:51:06 INFO [Admin Console]- Choices for user
+15-Oct-2018 14:23:27 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 14:23:27 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 14:23:29 INFO [DB Connection]- Connection successful
+15-Oct-2018 14:23:29 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:23:24 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:23:24 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:23:24 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:23:49 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 15:23:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:23:50 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:23:50 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:23:52 INFO [Main Console]- user login
+15-Oct-2018 15:25:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:25:31 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:25:31 INFO [Main Console]- Login successful
+15-Oct-2018 15:25:31 INFO [Admin Console]- Admin console started
+15-Oct-2018 15:25:31 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:25:46 INFO [Admin Console]- Displaying all employees
+15-Oct-2018 15:25:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:25:46 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:25:46 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:30:47 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 15:30:47 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:30:48 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:30:48 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:30:50 INFO [Main Console]- user login
+15-Oct-2018 15:31:01 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:31:01 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:31:01 INFO [Main Console]- Login successful
+15-Oct-2018 15:31:01 INFO [Admin Console]- Admin console started
+15-Oct-2018 15:31:01 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:31:05 INFO [Admin Console]- Displaying all employees
+15-Oct-2018 15:31:05 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:31:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:32:32 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 15:32:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:32:32 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 15:32:32 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:32:33 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:32:33 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:32:33 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:32:33 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:32:35 INFO [Main Console]- user login
+15-Oct-2018 15:32:39 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:32:39 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:32:39 INFO [Main Console]- Login successful
+15-Oct-2018 15:32:39 INFO [Admin Console]- Admin console started
+15-Oct-2018 15:32:39 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:32:40 INFO [Admin Console]- Displaying all employees
+15-Oct-2018 15:32:40 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:32:41 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:32:41 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:33:57 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 15:33:57 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:33:58 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:33:58 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:33:59 INFO [Main Console]- user login
+15-Oct-2018 15:36:53 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:36:53 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:36:53 INFO [Main Console]- Login successful
+15-Oct-2018 15:36:53 INFO [Admin Console]- Admin console started
+15-Oct-2018 15:36:53 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:37:00 INFO [Admin Console]- Displaying all employees
+15-Oct-2018 15:37:00 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:37:00 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:37:00 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:37:04 INFO [Admin Console]- Back to main console
+15-Oct-2018 15:37:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:37:05 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:37:05 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:37:13 INFO [Main Console]- user login
+15-Oct-2018 15:37:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:37:52 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:37:52 INFO [Main Console]- Login successful
+15-Oct-2018 15:37:52 INFO [Admin Console]- Admin console started
+15-Oct-2018 15:37:52 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:37:57 INFO [Admin Console]- modifying employee
+15-Oct-2018 15:38:10 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:38:10 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:38:10 ERROR [Admin Console]- no data found
+15-Oct-2018 15:38:10 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:38:20 WARN [Admin Console]- Invalid choice entered by the user
+15-Oct-2018 15:38:20 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:38:26 INFO [Admin Console]- modifying employee
+15-Oct-2018 15:38:44 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:38:44 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:42:30 ERROR [Admin Console]- Validation errors
+15-Oct-2018 15:42:31 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:46:16 INFO [Admin Console]- adding employee to db
+15-Oct-2018 15:46:31 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:46:31 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:46:56 ERROR [Admin Console]- Input type mismatch
+15-Oct-2018 15:46:56 ERROR [Admin Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
+15-Oct-2018 15:46:57 INFO [Admin Console]- Choices for user
+15-Oct-2018 15:47:38 INFO [Admin Console]- Program terminated
+15-Oct-2018 15:47:59 INFO [DB Connection]- Driver Loaded
+15-Oct-2018 15:47:59 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:48:00 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:48:00 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:48:03 INFO [Main Console]- user login
+15-Oct-2018 15:48:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:48:41 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:48:41 INFO [Main Console]- Login successful
+15-Oct-2018 15:48:41 INFO [Admin Console]- Employee console started
+15-Oct-2018 15:48:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:48:41 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:48:41 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 15:49:03 INFO [Admin Console]- Searhcing employee
+15-Oct-2018 15:49:03 INFO [Admin Console]- showing choices to search employee
+15-Oct-2018 15:49:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:49:43 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:49:43 INFO [Admin Console]- Showing searched results
+15-Oct-2018 15:49:43 INFO [Admin Console]- showing choices to search employee
+15-Oct-2018 15:50:17 INFO [Admin Console]- returning to employee console
+15-Oct-2018 15:50:17 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:50:17 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:50:17 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 15:50:25 INFO [Admin Console]- Applying for leaves
+15-Oct-2018 15:50:25 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:50:25 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:51:07 ERROR [Admin Console]- Incorrect FROM DATE for leave
+15-Oct-2018 15:51:07 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:51:07 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:51:07 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 15:51:23 INFO [Admin Console]- Applying for leaves
+15-Oct-2018 15:51:23 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:51:23 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:51:38 ERROR [Admin Console]- Incorrect TO DATE for leave
+15-Oct-2018 15:51:38 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:51:38 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:51:38 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 15:51:46 INFO [Admin Console]- Applying for leaves
+15-Oct-2018 15:51:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:51:46 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:51:57 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:51:57 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:51:57 INFO [applog]- Committed successfully
+15-Oct-2018 15:51:57 INFO [Admin Console]- Leave Apllied
+15-Oct-2018 15:51:57 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:51:57 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:51:57 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 15:52:13 INFO [Admin Console]- Applying for leaves
+15-Oct-2018 15:52:13 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:52:13 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:53:11 ERROR [Admin Console]- Incorrect format for date
+15-Oct-2018 15:53:11 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:53:11 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:53:11 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 15:53:16 INFO [Admin Console]- Managing leaves
+15-Oct-2018 15:53:16 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:53:16 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:53:48 INFO [Admin Console]- Displaying choices to manage leaves
+15-Oct-2018 15:53:56 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:53:56 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:53:56 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:53:56 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:53:56 INFO [applog]- Commit succesfull
+15-Oct-2018 15:53:56 INFO [Admin Console]- Leave apllied
+15-Oct-2018 15:53:56 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:53:56 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:53:56 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 15:54:04 INFO [Admin Console]- Applying for leaves
+15-Oct-2018 15:54:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:54:04 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:54:10 ERROR [Admin Console]- Incorrect format for date
+15-Oct-2018 15:54:10 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:54:10 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:54:10 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 15:54:29 INFO [Admin Console]- returning to main
+15-Oct-2018 15:54:29 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:54:29 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:54:29 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:54:33 ERROR [Main Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
+15-Oct-2018 15:54:33 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:54:34 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:54:34 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:54:39 INFO [Main Console]- user login
+15-Oct-2018 15:54:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:54:43 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:54:43 INFO [Main Console]- Login successful
+15-Oct-2018 15:54:43 INFO [Admin Console]- Employee console started
+15-Oct-2018 15:54:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:54:43 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:54:43 INFO [Admin Console]- Displaying choices for common employees
+15-Oct-2018 15:55:24 INFO [Admin Console]- Applying for leaves
+15-Oct-2018 15:55:24 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:55:24 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:55:43 WARN [Admin Console]- Not enough leaves
+15-Oct-2018 15:55:43 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:55:43 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:55:43 INFO [Admin Console]- Displaying choices for common employees
+15-Oct-2018 15:56:04 INFO [Admin Console]- returning to main
+15-Oct-2018 15:56:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:56:04 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:56:04 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:57:41 ERROR [Main Console]- com.cg.ems.exception.EMSException: Sorry, Input should be Only Numbers
+15-Oct-2018 15:57:41 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:57:41 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:57:41 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:57:42 INFO [Main Console]- user login
+15-Oct-2018 15:57:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:57:46 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:57:46 INFO [Main Console]- Login successful
+15-Oct-2018 15:57:46 INFO [Admin Console]- Employee console started
+15-Oct-2018 15:57:46 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:57:46 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:57:46 INFO [Admin Console]- Displaying choices for common employees
+15-Oct-2018 15:57:49 INFO [Admin Console]- Applying for leaves
+15-Oct-2018 15:57:49 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:57:49 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:58:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:58:04 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:58:04 INFO [applog]- Committed successfully
+15-Oct-2018 15:58:04 INFO [Admin Console]- Leave Apllied
+15-Oct-2018 15:58:04 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:58:04 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:58:04 INFO [Admin Console]- Displaying choices for common employees
+15-Oct-2018 15:58:34 INFO [Admin Console]- returning to main
+15-Oct-2018 15:58:34 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:58:34 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:58:34 INFO [Main Console]- No leaves to auto approve
+15-Oct-2018 15:58:36 INFO [Main Console]- user login
+15-Oct-2018 15:58:51 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:58:51 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:58:51 INFO [Main Console]- Login successful
+15-Oct-2018 15:58:52 INFO [Admin Console]- Employee console started
+15-Oct-2018 15:58:52 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:58:52 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:58:52 INFO [Admin Console]- Displaying choices for manager
+15-Oct-2018 15:58:55 INFO [Admin Console]- Managing leaves
+15-Oct-2018 15:58:55 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 15:58:55 INFO [DB Connection]- Connection successful
+15-Oct-2018 15:59:28 INFO [Admin Console]- Displaying choices to manage leaves
+15-Oct-2018 16:00:01 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 16:00:01 INFO [DB Connection]- Connection successful
+15-Oct-2018 16:00:01 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 16:00:01 INFO [DB Connection]- Connection successful
+15-Oct-2018 16:00:01 INFO [applog]- Commit succesfull
+15-Oct-2018 16:00:01 INFO [Admin Console]- Leave apllied
+15-Oct-2018 16:00:01 INFO [DB Connection]- Property file read successfully
+15-Oct-2018 16:00:01 INFO [DB Connection]- Connection successful
+15-Oct-2018 16:00:01 INFO [Admin Console]- Displaying choices for manager

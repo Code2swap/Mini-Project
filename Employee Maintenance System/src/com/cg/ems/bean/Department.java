@@ -1,4 +1,5 @@
 package com.cg.ems.bean;
+
 //Bean class for Department
 
 public class Department {
@@ -8,7 +9,7 @@ public class Department {
 	
 	//Default constructor for Department
 	public Department() {
-		super();
+		return;
 		
 	}
 	//Parameterized constructor for Department

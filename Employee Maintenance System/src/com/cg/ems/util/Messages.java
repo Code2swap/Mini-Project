@@ -2,8 +2,6 @@ package com.cg.ems.util;
 
 public interface Messages {
 
-	
-	
 	public static final String EMPLOYEE_DOES_NOT_EXIST = "Sorry, No Data Found in DB for EmpId";
 	
 	public static final String INPUT_MISMATCH = "Sorry, Input should be Only Numbers";

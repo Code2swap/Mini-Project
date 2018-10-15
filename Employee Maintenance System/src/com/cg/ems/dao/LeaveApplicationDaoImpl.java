@@ -8,6 +8,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 import com.cg.ems.bean.EmployeeLeave;
 import com.cg.ems.exception.EMSException;
@@ -16,8 +17,23 @@ import com.cg.ems.util.Messages;
 
 public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 
-	private Logger log = Logger.getLogger("RegisterEntryDAO");
-
+	static Logger logger = Logger.getLogger("applog");
+	
+	public LeaveApplicationDaoImpl() {
+		
+		PropertyConfigurator.configure("resources//log4j.properties");
+	}
+	
+	//------------------------Employee Management System --------------------------
+	/*******************************************************************************************************
+		- Function Name		:	applyLeave
+		- Input Parameters	:	EmployeeLeave object
+		- Return Type		:	boolean
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	employee applies for a leave
+	********************************************************************************************************/	
 	@Override
 	public boolean applyLeave(EmployeeLeave empLeave) throws EMSException {
 
@@ -41,15 +57,17 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 				if (count > 0) {
 					con.commit();
 					result = true;
+					logger.info("Committed successfully");
 				}
 
 			} catch (SQLException e) {
 				try {
 					con.rollback();
 				} catch (SQLException e1) {
+					logger.error("Database error: Unable to rollback");
 					throw new EMSException(Messages.UNABLE_TO_ROLLBACK);
 				}
-				log.error(e);
+				logger.error("Database error: Unable to complete operation");
 				throw new EMSException(Messages.UNABLE_TO_COMPLETE_OPERATION);
 			} finally {
 
@@ -57,6 +75,7 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 					st.close();
 					con.close();
 				} catch (Exception e) {
+					logger.error("Database error: Unable to close connection");
 					throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 				}
 			}
@@ -64,6 +83,18 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 
 		return result;
 	}
+	
+	//------------------------Employee Management System --------------------------
+		/*******************************************************************************************************
+			- Function Name		:	approveLeave
+			- Input Parameters	:	int leaveId
+			- Return Type		:	boolean
+			- Throws			:  	EMSException
+			- Author			:	
+			- Creation Date		:	12/10/2018
+			- Description		:	approves leave taken by the employee
+		********************************************************************************************************/	
+	
 
 	@Override
 	public boolean approveLeave(int leaveId) throws EMSException {
@@ -96,17 +127,20 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 					if (count1 > 0 && count2 > 0) {
 						con.commit();
 						result = true;
+						logger.info("Commit succesfull");
 					}
 				} else {
+					logger.error("Not enough leave balance");
 					throw new EMSException(Messages.NOT_ENOUGH_LEAVE_BALANCE);
 				}
 			} catch (SQLException e) {
 				try {
 					con.rollback();
 				} catch (SQLException e1) {
+					logger.error("Database error: Unable to rollback");
 					throw new EMSException(Messages.UNABLE_TO_ROLLBACK);
 				}
-				log.error(e);
+				logger.error("Database error: Unable to complete operation");
 				throw new EMSException(Messages.UNABLE_TO_COMPLETE_OPERATION);
 			} finally {
 
@@ -116,13 +150,24 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 					st3.close();
 					con.close();
 				} catch (Exception e) {
+					logger.error("Database error: Unable to close connection");
 					throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 				}
 			}
 		}
 		return result;
 	}
-
+	
+	//------------------------Employee Management System --------------------------
+		/*******************************************************************************************************
+			- Function Name		:	getEmpLeaveById
+			- Input Parameters	:	int leaveId
+			- Return Type		:	EmployeeLeave object
+			- Throws			:  	EMSException
+			- Author			:	
+			- Creation Date		:	12/10/2018
+			- Description		:	employee leave details fetched after submitting id
+		********************************************************************************************************/	
 	public EmployeeLeave getEmpLeaveById(int leaveId) throws EMSException {
 		EmployeeLeave empLeave = null;
 		Connection con = null;
@@ -148,9 +193,10 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 			try {
 				con.rollback();
 			} catch (SQLException e1) {
+				logger.error("Database error: Unable to Rollback");
 				throw new EMSException(Messages.UNABLE_TO_ROLLBACK);
 			}
-			log.error(e);
+			logger.error("Database error: Unable to fetch record");
 			throw new EMSException(Messages.NOT_FETCHED);
 		}
 
@@ -178,9 +224,10 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 			try {
 				con.rollback();
 			} catch (SQLException e1) {
+				logger.error("Database error: Unable to Rollback");
 				throw new EMSException(Messages.UNABLE_TO_ROLLBACK);
 			}
-			log.error(e);
+			logger.error("Database error: Unable to complete operation");
 			throw new EMSException(Messages.UNABLE_TO_COMPLETE_OPERATION);
 
 		} finally {
@@ -189,12 +236,22 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 				st1.close();
 				con.close();
 			} catch (Exception e) {
+				logger.error("Database error: Unable to close connection");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 		}
 		return result;
 	}
-
+	//------------------------Employee Management System --------------------------
+			/*******************************************************************************************************
+				- Function Name		:	getAllApliedLeaves
+				- Input Parameters	:	String managerID
+				- Return Type		:	List of EmployeeLeave object
+				- Throws			:  	EMSException
+				- Author			:	
+				- Creation Date		:	12/10/2018
+				- Description		:	list of all employee leave details fetched after submitting manager id 
+			********************************************************************************************************/	
 	@Override
 	public List<EmployeeLeave> getAllAppliedLeaves(String mgrId) throws EMSException {
 		List<EmployeeLeave> empLeaveList = new ArrayList<EmployeeLeave>();
@@ -223,9 +280,10 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 			try {
 				con.rollback();
 			} catch (SQLException e1) {
+				logger.error("Database error: Unable to Rollback");
 				throw new EMSException(Messages.UNABLE_TO_ROLLBACK);
 			}
-			log.error(e);
+			logger.error("Database error: Unable to complete operation");
 			throw new EMSException(Messages.UNABLE_TO_COMPLETE_OPERATION);
 		} finally {
 
@@ -233,6 +291,7 @@ public class LeaveApplicationDaoImpl implements ILeaveApplicationDao {
 				st1.close();
 				con.close();
 			} catch (Exception e) {
+				logger.error("Database error: Unable to close connection");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 		}

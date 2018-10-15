@@ -57,6 +57,11 @@ public class AdminConsole {
 			} catch (EMSException e) {
 				log.error(e);
 				System.err.println(e.getMessage());
+				try {
+					Thread.sleep(1000);
+				} catch (InterruptedException e1) {
+					System.err.println("Action interrupted");
+				}
 			}
 		}
 	}
@@ -88,6 +93,13 @@ public class AdminConsole {
 			log.warn("the employee table is empty");
 			System.out.println("Currently No Employees are there");
 		}
+		
+		/*System.out.println(String.format("%-10s %-10s %s", "ID","FNAME","LNAME"));
+		for(Employee employee : employeeList){
+			System.out.println(String.format("%-10s %-10s %s", employee.getEmpId(),employee.getEmpFName(),employee.getEmpLName()));
+		}*/
+		
+		
 		for(Employee employee: employeeList)
 			System.out.println(employee.toString());
 	}
@@ -117,80 +129,86 @@ public class AdminConsole {
 			}
 			System.out.println(employee.toString());
 			
-			System.out.println("Enter Updated Value for Respective Field (0 for No Update)");
+			System.out.println("Enter Updated Value for Respective Field (-1 for No Update)");
 			// validations
 			
 			System.out.print("First Name ? ");
 			strData = scan.next();
-			if(strData.equals("0")) strData = employee.getEmpFName();
+			if(strData.equals("-1")) strData = employee.getEmpFName();
 			updatedEmployee.setEmpFName(strData);
 			
 			System.out.print("Last Name ? ");
 			strData = scan.next();
-			if(strData.equals("0")) strData = employee.getEmpLName();
+			if(strData.equals("-1")) strData = employee.getEmpLName();
 			updatedEmployee.setEmpLName(strData);
 			
 			System.out.print("Date of Birth (format:  yyyy-MM-dd) ? ");
 			strData = scan.next();
-			if(strData.equals("0")) dateData = employee.getEmpDOB();
+			if(strData.equals("-1")) dateData = employee.getEmpDOB();
 			else dateData = Date.valueOf(strData);
 			updatedEmployee.setEmpDOB(dateData);
 			
 			System.out.print("Date of Joining ? (format:  yyyy-MM-dd) ");
 			strData = scan.next();
-			if(strData.equals("0")) dateData = employee.getEmpDOJ();
+			if(strData.equals("-1")) dateData = employee.getEmpDOJ();
 			else dateData = Date.valueOf(strData);
 			updatedEmployee.setEmpDOJ(dateData);
 			
 			System.out.print("Department Id ? ");
 			intData = scan.nextInt();
-			if(intData == 0) intData = employee.getEmpDeptId();
+			if(intData == -1) intData = employee.getEmpDeptId();
 			updatedEmployee.setEmpDeptId(intData);
 			
 			System.out.print("Grade ? ");
 			strData = scan.next();
-			if(strData.equals("0")) strData = employee.getEmpGrade();
+			if(strData.equals("-1")) strData = employee.getEmpGrade();
 			updatedEmployee.setEmpGrade(strData);
 			
 			System.out.print("Designation ? ");
 			strData = scan.next();
-			if(strData.equals("0")) strData = employee.getEmpDesignation();
+			if(strData.equals("-1")) strData = employee.getEmpDesignation();
 			updatedEmployee.setEmpDesignation(strData);
 			
 			System.out.print("Basic Salary ? ");
 			intData = scan.nextInt();
-			if(intData == 0) intData = employee.getEmpBasic();
+			if(intData == -1) intData = employee.getEmpBasic();
 			updatedEmployee.setEmpBasic(intData);
 			
 			System.out.print("Gender ? ");
-			charData = scan.next().charAt(0);
-			if(charData == '0') charData = employee.getEmpGender();
+			strData = scan.next();
+			if(strData.equals("-1")) charData = employee.getEmpGender();
+			else charData = strData.charAt(0);
 			updatedEmployee.setEmpGender(charData);
 			
 			System.out.print("Marital Status ? ");
 			strData = scan.next();
-			if(strData.equals("0")) strData = employee.getEmpMarital();
+			if(strData.equals("-1")) strData = employee.getEmpMarital();
 			updatedEmployee.setEmpMarital(strData);
 			
 			scan.nextLine();
 			System.out.print("Home Address ? ");
 			strData = scan.nextLine();
-			if(strData.equals("0")) strData = employee.getEmpAddress();
+			if(strData.equals("-1")) strData = employee.getEmpAddress();
 			updatedEmployee.setEmpAddress(strData);
 			
 			System.out.print("Contact Number ? ");
 			strData = scan.next();
-			if(strData.equals("0")) strData = employee.getEmpContact();
+			if(strData.equals("-1")) strData = employee.getEmpContact();
 			updatedEmployee.setEmpContact(strData);
 			
 			System.out.print("Manager Id ? ");
 			strData = scan.next();
-			if(strData.equals("0")) strData = employee.getMgrId();
+			if(strData.length() > 1 && !strData.equals("-1")) {
+				System.out.println("Should be a single character or -1");
+				log.error("string entered instead of character");
+				return;
+			}
+			if(strData.equals("-1")) strData = employee.getMgrId();
 			updatedEmployee.setMgrId(strData);
 			
 			System.out.println("Employee Leave Balance");
 			intData = scan.nextInt();
-			if(intData == 0) intData = employee.getEmpLeaveBal();
+			if(intData == -1) intData = employee.getEmpLeaveBal();
 			updatedEmployee.setEmpLeaveBal(intData);
 			
 			// getting list of errors during validation
@@ -303,7 +321,8 @@ public class AdminConsole {
 			employee.setEmpGrade(scan.next());
 			
 			System.out.print("Designation ? ");
-			employee.setEmpDesignation(scan.next());
+			scan.nextLine();
+			employee.setEmpDesignation(scan.nextLine());
 			
 			System.out.print("Basic Salary ? ");
 			employee.setEmpBasic(scan.nextInt());

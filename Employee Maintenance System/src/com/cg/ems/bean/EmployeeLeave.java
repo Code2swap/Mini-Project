@@ -14,6 +14,11 @@ public class EmployeeLeave {
 	private Date toDate;
 	private String status;
 
+	//Default constructor for EmployeeLeave
+	public EmployeeLeave() {
+	}
+	
+	//Parameterized constructor for EmployeeLeave
 	public EmployeeLeave(int leaveId, String empId, Date appliedDate, int leaveDuration, Date fromDate, Date toDate,
 			String status) {
 		super();
@@ -25,7 +30,8 @@ public class EmployeeLeave {
 		this.toDate = toDate;
 		this.status = status;
 	}
-
+	
+	//toString method for EmployeeLeave
 	@Override
 	public String toString() {
 		return "EmployeeLeave [leaveId=" + leaveId + ", empId=" + empId + ", appliedDate=" + appliedDate
@@ -33,9 +39,8 @@ public class EmployeeLeave {
 				+ status + "]";
 	}
 
-	public EmployeeLeave() {
-	}
-
+	
+	//Getters and Setters for EmployeeLeave properties
 	public String getEmpId() {
 		return empId;
 	}
