@@ -12,6 +12,7 @@ import java.util.List;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
 
 import com.cg.ems.bean.EmployeeLeave;
 import com.cg.ems.exception.EMSException;
@@ -20,7 +21,25 @@ import com.cg.ems.util.Messages;
 
 public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 
-	private Logger log = Logger.getLogger("RegisterEntryDAO");
+	static Logger logger = Logger.getLogger("applog");
+	
+	public AutoApprovalDaoImpl() {
+		
+		PropertyConfigurator.configure("resources//log4j.properties");
+	}
+	
+	
+	//------------------------Employee Management System --------------------------
+			/*******************************************************************************************************
+				- Function Name		:	autoApprove
+				- Input Parameters	:	None
+				- Return Type		:	List of Employee leaves
+				- Throws			:  	EMSException
+				- Author			:	
+				- Creation Date		:	12/10/2018
+				- Description		:	fetching list of employee leaves
+			********************************************************************************************************/	
+	
 
 	@Override
 	public List<EmployeeLeave> autoApprove() throws EMSException {
@@ -74,6 +93,7 @@ public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 						leaveList.add(empLeave);
 					}
 				} else {
+					logger.error("Not enough leaves for the employee");
 					throw new EMSException(Messages.NOT_ENOUGH_LEAVE_BALANCE);
 				}
 			}
@@ -81,9 +101,10 @@ public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 			try {
 				con.rollback();
 			} catch (SQLException e1) {
+				logger.error("Database error: Unable to Rollback");
 				throw new EMSException(Messages.UNABLE_TO_ROLLBACK);
 			}
-			log.error(e);
+			logger.error("Database error:Unable to complete operation at this time");
 			throw new EMSException(Messages.UNABLE_TO_COMPLETE_OPERATION);
 		} finally {
 
@@ -94,6 +115,7 @@ public class AutoApprovalDaoImpl implements IAutoApprovalDao {
 				st4.close();
 				con.close();
 			} catch (Exception e) {
+				logger.error("Database error: Connection could not be closed");
 				throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 			}
 

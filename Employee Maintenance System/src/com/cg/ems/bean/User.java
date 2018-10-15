@@ -1,5 +1,6 @@
 package com.cg.ems.bean;
 
+//Bean class for User
 public class User {
 
 	private String userId;
@@ -11,9 +12,11 @@ public class User {
 	// to get the employee details for the user
 	private String empId;
 	
+	//Default constructor for User
 	public User() {			
 	}
 	
+	//Parameterized constructor for User
 	public User(String userId, String userName, String userPassword, String userType, String empId) {
 		super();
 		this.userId = userId;
@@ -22,7 +25,7 @@ public class User {
 		this.userType = userType;
 		this.empId = empId;
 	}
-
+	//Getters and Setters for  User properties
 	public String getUserId() {
 		return userId;
 	}
@@ -63,6 +66,7 @@ public class User {
 		this.empId = empId;
 	}
 
+	//toString method for Department
 	@Override
 	public String toString() {
 		return "User [userId=" + userId + ", userName=" + userName + ", userPassword=" + userPassword + ", userType="

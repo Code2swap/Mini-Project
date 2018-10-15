@@ -59,12 +59,12 @@ public class AdminServiceImpl implements IAdminService {
 		// Validate first name
 
 		if (!isValidFName(employee.getEmpFName())) {
-			validationErrors.add("Employee first name should be Aplhabetic only, not empty and start with captital letter");
+			validationErrors.add("Employee first name should be Alphabetic only, not empty and start with captital letter");
 		}
 
 		// validate last name
 		if (!isValidLName(employee.getEmpLName())) {
-			validationErrors.add("Employee last name should be Aplhabetic only, not empty and start with captital letter");
+			validationErrors.add("Employee last name should be Alphabetic only, not empty and start with captital letter");
 		}
 
 		// validate dates
@@ -110,7 +110,7 @@ public class AdminServiceImpl implements IAdminService {
 	//validation methods
 	public boolean isValidAddress(String empAddress) {
 
-		Pattern namePattern = Pattern.compile("^[A-Za-z0-9]{0,}$");
+		Pattern namePattern = Pattern.compile("^[A-Za-z0-9 ]{0,}$");
 		Matcher nameMatcher = namePattern.matcher(empAddress);
 		return nameMatcher.matches();
 
@@ -217,6 +217,7 @@ public class AdminServiceImpl implements IAdminService {
 	}
 
 	private boolean isValidID(String empId) {
+		
 		if (empId.isEmpty()) {
 
 			return false;

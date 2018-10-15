@@ -19,8 +19,8 @@ public class LeaveApplicationDaoTest {
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 		leaveApplicationDao = new LeaveApplicationDaoImpl();
-		// make sure there exist an employee with empId = 200001 in employee table
-		empLeave = new EmployeeLeave(3002, "200001", Date.valueOf(LocalDate.now()), 3, Date.valueOf("2018-11-10"),Date.valueOf( "2018-11-12"), "Applied");
+		// make sure there exist an employee with empId = 300004 in employee table
+		empLeave = new EmployeeLeave(3002, "300004", Date.valueOf(LocalDate.now()), 3, Date.valueOf("2018-11-10"),Date.valueOf( "2018-11-12"), "Applied");
 	}
 
 	@Test

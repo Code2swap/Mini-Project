@@ -7,6 +7,9 @@ import java.sql.SQLException;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+
 import com.cg.ems.bean.Employee;
 import com.cg.ems.bean.User;
 import com.cg.ems.exception.EMSException;
@@ -15,6 +18,22 @@ import com.cg.ems.util.Messages;
 
 public class AdminDaoImpl implements IAdminDao {
 
+	static Logger logger = Logger.getLogger("applog");
+	
+	public AdminDaoImpl() {
+		PropertyConfigurator.configure("resources//log4j.properties");
+	}
+	
+	//------------------------Employee Management System --------------------------
+	/*******************************************************************************************************
+		- Function Name		:	addEmployee
+		- Input Parameters	:	Employee object
+		- Return Type		:	boolean
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	adding employee to database
+	********************************************************************************************************/
 	@Override
 	public boolean addEmployee(Employee employee) throws EMSException {
 		boolean success = false;
@@ -39,17 +58,31 @@ public class AdminDaoImpl implements IAdminDao {
 				st.setInt(15, employee.getEmpLeaveBal());
 				int count = st.executeUpdate();
 
-				if (count > 0)
+				if (count > 0) {
 					success = true;
+					logger.info("Record inserted in the database");
+				}
+				else {
+					logger.error("Insertion failed");
+				}
 
 			} catch (SQLException e) {
-
+				logger.error("Database Error : data not stored");
 				throw new EMSException(Messages.NOT_INSERTED);
 			}
 		}
 		return success;
 	}
-
+	
+	/*******************************************************************************************************
+		- Function Name		:	updateEmployee
+		- Input Parameters	:	Employee object
+		- Return Type		:	boolean
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	updating patient data
+	********************************************************************************************************/
 	@Override
 	public boolean updateEmployee(Employee employee) throws EMSException {
 		boolean success = false;
@@ -73,14 +106,29 @@ public class AdminDaoImpl implements IAdminDao {
 			st.setString(13, employee.getMgrId());
 			st.setInt(14, employee.getEmpLeaveBal());
 			int update = st.executeUpdate();
-			if(update > 0)
+			if(update > 0) {
 				success = true;
+				logger.info("successfully updated");
+			}
+			else {
+				logger.error("updation failed");
+			}
 		} catch (SQLException e) {
+			logger.error("Database Error: data not updated");
 			throw new EMSException(Messages.NOT_UPDATED);
 		}
 		return success;
 	}
-
+	
+	/*******************************************************************************************************
+		- Function Name		:	getAllEmployee
+		- Input Parameters	:	None
+		- Return Type		:	List of employee objects
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	Fetching details of all employees from database
+	********************************************************************************************************/
 	@Override
 	public List<Employee> getAllEmployee() throws EMSException {
 
@@ -112,11 +160,22 @@ public class AdminDaoImpl implements IAdminDao {
 			}
 
 		} catch (SQLException e) {
-
+			logger.error("Database Error: data not selected");
 			throw new EMSException(Messages.NOT_FETCHED);
 		}
 		return empList;
 	}
+	
+	
+	/*******************************************************************************************************
+		- Function Name		:	getEmployeeById
+		- Input Parameters	:	String EmployeeId
+		- Return Type		:	Employee object
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	fetching employee by id
+	********************************************************************************************************/
 
 	@Override
 	public Employee getEmployeeById(String empId) throws EMSException {
@@ -147,11 +206,22 @@ public class AdminDaoImpl implements IAdminDao {
 			}
 
 		} catch (SQLException e) {
+			logger.error("Database Error:data not selected");
 			throw new EMSException(Messages.NOT_FETCHED);
 		}
 		return emp;
 
 	}
+	
+	/*******************************************************************************************************
+		- Function Name		:	addUserCredentials
+		- Input Parameters	:	User object
+		- Return Type		:	boolean
+		- Throws			:  	EMSException
+		- Author			:	
+		- Creation Date		:	12/10/2018
+		- Description		:	adding user credentials
+	********************************************************************************************************/
 
 	@Override
 	public boolean addUserCredentials(User user) throws EMSException {
@@ -167,16 +237,23 @@ public class AdminDaoImpl implements IAdminDao {
 				st.setString(3, user.getUserType());
 				st.setString(4, user.getEmpId());
 				int count = st.executeUpdate();
-				if (count > 0)
+				if (count > 0) {
 					success = true;
+					logger.info("User credentials entered in database");
+				}
+				else {
+					logger.error("Insertion error");
+				}
 
 			} catch (SQLException e) {
+				logger.error("Database Error: Data not inserted");
 				throw new EMSException(Messages.NOT_INSERTED);
 			} finally {
 				try {
 					st.close();
 					con.close();
 				} catch (SQLException e) {
+					logger.error("Database Error: Connection could not closed");
 					throw new EMSException(Messages.CONNECTION_NOT_CLOSED);
 				}
 				
